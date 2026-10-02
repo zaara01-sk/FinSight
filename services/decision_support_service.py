@@ -771,13 +771,23 @@ def _anomaly_recommendations(
 
 
 def _finalize(recommendations: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    # Deduplicate across combined recommendations by category and normalized title
+    deduped: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for rec in recommendations:
+        key = (str(rec.get("category", "")).lower().strip(), str(rec.get("title", "")).lower().strip())
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(rec)
+
     ordered = sorted(
-        recommendations,
+        deduped,
         key=lambda item: (
-            _PRIORITY_ORDER[item["priority"]],
-            _SEVERITY_ORDER[item["severity"]],
-            item["category"],
-            item["title"],
+            _PRIORITY_ORDER.get(item.get("priority", "MEDIUM"), 2),
+            _SEVERITY_ORDER.get(item.get("severity", "MEDIUM"), 2),
+            item.get("category", ""),
+            item.get("title", ""),
         ),
     )
     for index, recommendation in enumerate(ordered, start=1):

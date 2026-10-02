@@ -371,8 +371,17 @@ def get_financial_analytics(
                 if opening_balance is not None
                 else None
             ),
+            "expense_to_income_ratio": (
+                (Decimal(total_expense) / Decimal(total_income)).quantize(
+                    Decimal("0.01"), rounding=ROUND_HALF_UP
+                )
+                if total_income
+                else None
+            ),
             "income_expense_ratio": (
-                Decimal(total_income) / Decimal(total_expense)
+                (Decimal(total_income) / Decimal(total_expense)).quantize(
+                    Decimal("0.01"), rounding=ROUND_HALF_UP
+                )
                 if total_expense
                 else None
             ),

@@ -105,6 +105,11 @@ def _format_value(label: str, value: Any, currency: str) -> str:
         return _format_minor(value, currency)
     if value is None:
         return "—"
+    if label in {"Income/Expense Ratio", "Expense-to-Income Ratio", "Expense/Income Ratio"}:
+        try:
+            return f"{float(Decimal(str(value))):.2f}"
+        except Exception:
+            return str(value)
     return str(value)
 
 

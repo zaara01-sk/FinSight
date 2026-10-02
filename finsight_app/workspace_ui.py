@@ -112,7 +112,11 @@ def render_overview(st: Any, token: str, business: dict[str, Any]) -> bool:
 
     ratio = kpis.get("income_expense_ratio")
     if ratio is not None:
-        st.caption(f"Income / Expense Ratio: {ratio}")
+        try:
+            formatted_ratio = f"{float(Decimal(str(ratio))):.2f}"
+        except Exception:
+            formatted_ratio = str(ratio)
+        st.caption(f"Income / Expense Ratio: {formatted_ratio}")
 
     trends = analysis.get("trends", {})
     monthly = trends.get("monthly", []) if isinstance(trends, dict) else []

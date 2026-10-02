@@ -92,8 +92,16 @@ def render_help_assistant(st, business_id):
     st.markdown(HELP_STYLE.replace("__MASCOT_IMAGE__", mascot_image()), unsafe_allow_html=True)
     # Right-edge anchoring keeps the launcher in the main viewport, including
     # when the sidebar is collapsed. The conversation uses a native portal.
-    with st.popover("Ask Finny", key="scheme_help_launcher", type="primary", width=156):
-        with st.container(key="scheme_help_content"):
+    try:
+        popover_ctx = st.popover("Ask Finny", key="scheme_help_launcher", type="primary", width=156)
+    except TypeError:
+        popover_ctx = st.popover("Ask Finny")
+    with popover_ctx:
+        try:
+            container_ctx = st.container(key="scheme_help_content")
+        except TypeError:
+            container_ctx = st.container()
+        with container_ctx:
             render_assistant(st, business_id)
 
 
@@ -109,11 +117,21 @@ def render_assistant(st, business_id):
         st.caption("Scheme rules can change. Confirm final eligibility on the official website. Save your profile under Government Schemes to use it here.")
     key = f"scheme_answer_{business_id}"
     history_key = f"scheme_chat_history_{business_id}"
-    with st.form(f"scheme_chat_form_{business_id}", clear_on_submit=True, enter_to_submit=False):
+    try:
+        form_ctx = st.form(f"scheme_chat_form_{business_id}", clear_on_submit=True, enter_to_submit=False)
+    except TypeError:
+        form_ctx = st.form(f"scheme_chat_form_{business_id}", clear_on_submit=True)
+    with form_ctx:
         question = st.text_area("Message Finny", max_chars=2000, height=110,
                                  placeholder="Ask in English, हिन्दी or Hinglish…",
                                  key=f"scheme_query_{business_id}")
-        submitted = st.form_submit_button("Ask Finny", icon=":material/send:", width="stretch")
+        try:
+            submitted = st.form_submit_button("Ask Finny", icon=":material/send:", width="stretch")
+        except TypeError:
+            try:
+                submitted = st.form_submit_button("Ask Finny", icon=":material/send:", use_container_width=True)
+            except TypeError:
+                submitted = st.form_submit_button("Ask Finny")
     if submitted:
         if not question.strip():
             st.warning("Enter a question first.")
@@ -133,15 +151,33 @@ def render_assistant(st, business_id):
                         "scheme_ids": [c["scheme_id"] for c in answer["recommendations"]] or [c["scheme_name"] for c in answer.get("screening_results", [])],
                         "clarification": answer["message"] if answer["status"] == "clarification" else "",
                         "answer": answer["message"],
-                    }])[-6:]
-    answer = st.session_state.get(key)
-    if not answer:
-        st.caption("Try: Which government scheme am I eligible for?")
+                        "answer_payload": answer,
+                    }])[-10:]
+    chat_history = st.session_state.get(history_key, [])
+    if not chat_history:
+        answer = st.session_state.get(key)
+        if answer:
+            with st.chat_message("user"):
+                st.write(st.session_state.get(f"scheme_last_question_{business_id}", ""))
+            with st.chat_message("assistant"):
+                _render_answer(st, answer)
+        else:
+            st.caption("Try: Which government scheme am I eligible for? or What documents do I need?")
         return
-    with st.chat_message("user"):
-        st.text(st.session_state.get(f"scheme_last_question_{business_id}", ""))
-    with st.chat_message("assistant"):
-        _render_answer(st, answer)
+
+    for turn in chat_history:
+        with st.chat_message("user"):
+            st.write(turn["question"])
+        with st.chat_message("assistant"):
+            if "answer_payload" in turn:
+                _render_answer(st, turn["answer_payload"])
+            else:
+                _render_answer(st, {"language": turn.get("language", "en"), "message": turn.get("answer", "")})
+
+    if st.button("Clear conversation", key=f"clear_chat_{business_id}"):
+        st.session_state[history_key] = []
+        st.session_state.pop(key, None)
+        st.rerun()
 
 
 def _render_answer(st, answer):

@@ -185,8 +185,30 @@ def _callout(title: str, body: str, styles, *, shade=WHITE) -> Table:
 
 
 def _table(headers: list[str], rows: list[list[Any]], widths) -> Table:
+    from reportlab.platypus import Paragraph
+    from reportlab.lib.styles import ParagraphStyle
+    cell_style = ParagraphStyle(
+        "FS_TableCell",
+        fontName="Helvetica",
+        fontSize=7.2,
+        leading=9.2,
+        textColor=colors.HexColor("#263B4D"),
+    )
+    header_style = ParagraphStyle(
+        "FS_TableHeader",
+        fontName="Helvetica-Bold",
+        fontSize=7.3,
+        leading=9.5,
+        textColor=WHITE,
+    )
+    formatted_headers = [Paragraph(h, header_style) for h in headers]
+    formatted_rows = [
+        [Paragraph(_text(v, ""), cell_style) if isinstance(v, str) and len(str(v)) > 15 else _text(v, "")
+         for v in row]
+        for row in rows
+    ]
     table = Table(
-        [headers] + [[_text(v, "") for v in row] for row in rows],
+        [formatted_headers] + formatted_rows,
         colWidths=widths,
         repeatRows=1,
         hAlign="LEFT",
@@ -236,7 +258,8 @@ def _bar_chart(title: str, categories: list[str], values: list[float]) -> Drawin
 def _income_expense_chart(monthly: list[dict[str, Any]]) -> Drawing | None:
     if len(monthly) < 2:
         return None
-    data = monthly[-6:]
+    data = monthly[-12:]
+    num_months = len(data)
     drawing = Drawing(465, 180)
     drawing.add(String(
         8, 164, "Income vs Expense Trend",
@@ -252,13 +275,14 @@ def _income_expense_chart(monthly: list[dict[str, Any]]) -> Drawing | None:
         [float(Decimal(str(row.get("expense_minor", 0))) / 100) for row in data],
     ]
     chart.categoryAxis.categoryNames = [str(row.get("period")) for row in data]
-    chart.categoryAxis.labels.fontSize = 6.5
+    chart.categoryAxis.labels.fontSize = 5.5 if num_months > 8 else 6.5
+    chart.categoryAxis.labels.angle = 25 if num_months > 8 else 0
     chart.valueAxis.labels.fontSize = 6.5
     chart.valueAxis.valueMin = 0
     chart.bars[0].fillColor = ACCENT
     chart.bars[1].fillColor = WARNING
-    chart.barWidth = 8
-    chart.groupSpacing = 5
+    chart.barWidth = 5 if num_months > 8 else 8
+    chart.groupSpacing = 3 if num_months > 8 else 5
     drawing.add(chart)
     drawing.add(String(48, 15, "Income", fontSize=7, fillColor=ACCENT))
     drawing.add(String(105, 15, "Expenses", fontSize=7, fillColor=WARNING))
@@ -510,10 +534,16 @@ def generate_business_report(
 
     if "cash_flow" in included or "payment_mode" in included:
         story.append(Paragraph("2.3 Cash Flow & Capital Preservation", styles["FS_H2"]))
+        inc_exp_val = summary.get('income_expense_ratio')
+        try:
+            inc_exp_str = f"{float(Decimal(str(inc_exp_val))):.2f}" if inc_exp_val is not None else "N/A"
+        except Exception:
+            inc_exp_str = _text(inc_exp_val)
+
         story.append(Paragraph(
             f"Observed net cash flow is {_money(summary.get('net_cash_flow_minor', 0), currency)}. "
             f"Cash-flow stability score: {_text(health.get('cash_flow_stability'))}. "
-            f"Income/expense ratio: {_text(summary.get('income_expense_ratio'))}.",
+            f"Income-to-expense ratio: {inc_exp_str}.",
             styles["FS_Body"],
         ))
         if "payment_mode" in included and payment_modes:
@@ -667,13 +697,37 @@ def generate_business_report(
     if "government_schemes" in included and schemes:
         story.append(Spacer(1, 5 * mm))
         story.append(Paragraph("Government Scheme Opportunities", styles["FS_H2"]))
+        
+        # Sort so eligible and potentially relevant schemes come first
+        order = {
+            "Likely relevant based on supplied information": 0,
+            "Potentially relevant": 1,
+            "Not matched based on supplied information": 2,
+        }
+        sorted_schemes = sorted(
+            schemes,
+            key=lambda item: (order.get(item.get("relevance"), 9), str(item.get("scheme_name", "")))
+        )
+        
+        # Prioritize actionable schemes (Likely or Potentially relevant)
+        actionable_schemes = [s for s in sorted_schemes if s.get("relevance") != "Not matched based on supplied information"]
+        schemes_to_display = actionable_schemes if actionable_schemes else sorted_schemes
+
+        seen_schemes = set()
+        deduped_schemes = []
+        for s in schemes_to_display:
+            name = s.get("scheme_name")
+            if name not in seen_schemes:
+                seen_schemes.add(name)
+                deduped_schemes.append(s)
+
         scheme_rows = [
             [
                 item.get("scheme_name"),
                 item.get("relevance", "Potentially relevant"),
-                item.get("information_required", ""),
+                item.get("information_required", "") or (", ".join(item.get("missing_information", [])) if isinstance(item.get("missing_information"), list) else "None"),
             ]
-            for item in schemes[:4]
+            for item in deduped_schemes[:5]
         ]
         story.append(_table(
             ["Scheme", "Screening Status", "Information Still Required"],

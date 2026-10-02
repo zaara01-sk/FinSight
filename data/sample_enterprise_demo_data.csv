@@ -1,0 +1,1320 @@
+Transaction_ID,Date,Type,Category,Amount_INR,Payment_Mode,Vendor_or_Payee,Description
+TX000001,2025-08-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000002,2025-08-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000003,2025-08-01 00:00:00,Income,Product Sales,2909,Debit Card,Client / Customer,Product Sales revenue received
+TX000004,2025-08-01 00:00:00,Income,Consulting & Services,12314,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000005,2025-08-01 00:00:00,Income,Product Sales,11435,UPI,Client / Customer,Product Sales revenue received
+TX000006,2025-08-01 00:00:00,Income,Training & Workshops,3520,UPI,Client / Customer,Training & Workshops revenue received
+TX000007,2025-08-01 00:00:00,Expense,Raw Materials & Supplies,16279,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000008,2025-08-02 00:00:00,Income,Consulting & Services,22856,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000009,2025-08-02 00:00:00,Income,Consulting & Services,19719,Cash,Client / Customer,Consulting & Services revenue received
+TX000010,2025-08-02 00:00:00,Expense,Raw Materials & Supplies,20432,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000011,2025-08-03 00:00:00,Income,Training & Workshops,8574,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000012,2025-08-03 00:00:00,Income,Consulting & Services,12055,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000013,2025-08-03 00:00:00,Income,Product Sales,4019,Credit Card,Client / Customer,Product Sales revenue received
+TX000014,2025-08-03 00:00:00,Income,Product Sales,8381,Debit Card,Client / Customer,Product Sales revenue received
+TX000015,2025-08-04 00:00:00,Income,Training & Workshops,11785,UPI,Client / Customer,Training & Workshops revenue received
+TX000016,2025-08-04 00:00:00,Income,Training & Workshops,4291,Cash,Client / Customer,Training & Workshops revenue received
+TX000017,2025-08-04 00:00:00,Expense,Logistics & Courier,2681,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000018,2025-08-05 00:00:00,Income,Product Sales,3250,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000019,2025-08-05 00:00:00,Income,Maintenance Contracts,10614,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000020,2025-08-06 00:00:00,Income,Maintenance Contracts,22857,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000021,2025-08-06 00:00:00,Income,Consulting & Services,17130,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000022,2025-08-06 00:00:00,Income,Consulting & Services,13748,UPI,Client / Customer,Consulting & Services revenue received
+TX000023,2025-08-07 00:00:00,Income,Consulting & Services,10354,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000024,2025-08-07 00:00:00,Income,Training & Workshops,7422,Cash,Client / Customer,Training & Workshops revenue received
+TX000025,2025-08-07 00:00:00,Expense,Marketing & Ads,4458,UPI,Approved Vendor,Marketing & Ads purchase
+TX000026,2025-08-08 00:00:00,Income,Maintenance Contracts,21145,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000027,2025-08-08 00:00:00,Income,Product Sales,5956,Cash,Client / Customer,Product Sales revenue received
+TX000028,2025-08-09 00:00:00,Income,Consulting & Services,21358,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000029,2025-08-09 00:00:00,Income,Training & Workshops,5340,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000030,2025-08-09 00:00:00,Income,Consulting & Services,13081,Cash,Client / Customer,Consulting & Services revenue received
+TX000031,2025-08-10 00:00:00,Expense,Electricity & Utilities,8894,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000032,2025-08-10 00:00:00,Expense,Internet & Software,4077,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000033,2025-08-10 00:00:00,Income,Training & Workshops,8930,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000034,2025-08-10 00:00:00,Income,Consulting & Services,21696,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000035,2025-08-10 00:00:00,Income,Product Sales,3271,UPI,Client / Customer,Product Sales revenue received
+TX000036,2025-08-10 00:00:00,Income,Consulting & Services,10242,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000037,2025-08-11 00:00:00,Income,Training & Workshops,12763,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000038,2025-08-11 00:00:00,Income,Maintenance Contracts,26128,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000039,2025-08-11 00:00:00,Income,Product Sales,11297,Debit Card,Client / Customer,Product Sales revenue received
+TX000040,2025-08-12 00:00:00,Income,Product Sales,7308,Credit Card,Client / Customer,Product Sales revenue received
+TX000041,2025-08-12 00:00:00,Income,Consulting & Services,19867,UPI,Client / Customer,Consulting & Services revenue received
+TX000042,2025-08-12 00:00:00,Income,Maintenance Contracts,24403,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000043,2025-08-13 00:00:00,Income,Maintenance Contracts,28937,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000044,2025-08-13 00:00:00,Income,Consulting & Services,10008,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000045,2025-08-14 00:00:00,Income,Product Sales,7810,Credit Card,Client / Customer,Product Sales revenue received
+TX000046,2025-08-14 00:00:00,Income,Product Sales,4332,Debit Card,Client / Customer,Product Sales revenue received
+TX000047,2025-08-14 00:00:00,Income,Maintenance Contracts,15846,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000048,2025-08-14 00:00:00,Income,Consulting & Services,23591,UPI,Client / Customer,Consulting & Services revenue received
+TX000049,2025-08-14 00:00:00,Expense,Marketing & Ads,4566,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000050,2025-08-15 00:00:00,Income,Consulting & Services,20574,Cash,Client / Customer,Consulting & Services revenue received
+TX000051,2025-08-15 00:00:00,Income,Consulting & Services,13685,Cash,Client / Customer,Consulting & Services revenue received
+TX000052,2025-08-16 00:00:00,Income,Consulting & Services,22671,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000053,2025-08-16 00:00:00,Income,Maintenance Contracts,21074,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000054,2025-08-16 00:00:00,Income,Training & Workshops,11479,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000055,2025-08-16 00:00:00,Expense,Raw Materials & Supplies,9049,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000056,2025-08-17 00:00:00,Income,Consulting & Services,24282,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000057,2025-08-17 00:00:00,Income,Product Sales,3663,UPI,Client / Customer,Product Sales revenue received
+TX000058,2025-08-17 00:00:00,Expense,Raw Materials & Supplies,13413,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000059,2025-08-18 00:00:00,Income,Consulting & Services,14125,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000060,2025-08-18 00:00:00,Income,Consulting & Services,22669,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000061,2025-08-18 00:00:00,Income,Training & Workshops,6981,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000062,2025-08-18 00:00:00,Income,Training & Workshops,6119,UPI,Client / Customer,Training & Workshops revenue received
+TX000063,2025-08-18 00:00:00,Expense,Marketing & Ads,6902,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000064,2025-08-19 00:00:00,Income,Training & Workshops,14945,UPI,Client / Customer,Training & Workshops revenue received
+TX000065,2025-08-19 00:00:00,Income,Product Sales,3493,Credit Card,Client / Customer,Product Sales revenue received
+TX000066,2025-08-19 00:00:00,Income,Maintenance Contracts,11580,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000067,2025-08-19 00:00:00,Expense,Logistics & Courier,3037,UPI,Approved Vendor,Logistics & Courier purchase
+TX000068,2025-08-20 00:00:00,Income,Consulting & Services,14127,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000069,2025-08-20 00:00:00,Income,Consulting & Services,7470,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000070,2025-08-20 00:00:00,Income,Product Sales,3328,Cash,Client / Customer,Product Sales revenue received
+TX000071,2025-08-21 00:00:00,Income,Consulting & Services,10449,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000072,2025-08-21 00:00:00,Income,Training & Workshops,10886,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000073,2025-08-22 00:00:00,Income,Consulting & Services,17418,UPI,Client / Customer,Consulting & Services revenue received
+TX000074,2025-08-22 00:00:00,Income,Training & Workshops,7345,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000075,2025-08-22 00:00:00,Expense,Logistics & Courier,3476,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000076,2025-08-23 00:00:00,Income,Training & Workshops,5536,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000077,2025-08-23 00:00:00,Income,Maintenance Contracts,15133,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000078,2025-08-23 00:00:00,Income,Product Sales,7638,UPI,Client / Customer,Product Sales revenue received
+TX000079,2025-08-23 00:00:00,Income,Product Sales,10311,Cash,Client / Customer,Product Sales revenue received
+TX000080,2025-08-24 00:00:00,Income,Consulting & Services,6863,Cash,Client / Customer,Consulting & Services revenue received
+TX000081,2025-08-24 00:00:00,Income,Product Sales,5544,UPI,Client / Customer,Product Sales revenue received
+TX000082,2025-08-24 00:00:00,Income,Product Sales,6353,Credit Card,Client / Customer,Product Sales revenue received
+TX000083,2025-08-24 00:00:00,Income,Product Sales,11833,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000084,2025-08-25 00:00:00,Income,Product Sales,9368,Cash,Client / Customer,Product Sales revenue received
+TX000085,2025-08-25 00:00:00,Income,Maintenance Contracts,16544,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000086,2025-08-26 00:00:00,Income,Consulting & Services,13703,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000087,2025-08-26 00:00:00,Income,Consulting & Services,14830,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000088,2025-08-26 00:00:00,Income,Maintenance Contracts,10377,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000089,2025-08-27 00:00:00,Income,Product Sales,3700,Cash,Client / Customer,Product Sales revenue received
+TX000090,2025-08-27 00:00:00,Income,Consulting & Services,21576,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000091,2025-08-27 00:00:00,Income,Consulting & Services,16436,UPI,Client / Customer,Consulting & Services revenue received
+TX000092,2025-08-27 00:00:00,Income,Consulting & Services,17108,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000093,2025-08-27 00:00:00,Expense,Logistics & Courier,2439,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000094,2025-08-28 00:00:00,Income,Product Sales,11586,Debit Card,Client / Customer,Product Sales revenue received
+TX000095,2025-08-28 00:00:00,Income,Product Sales,4700,Debit Card,Client / Customer,Product Sales revenue received
+TX000096,2025-08-28 00:00:00,Income,Product Sales,4253,Cash,Client / Customer,Product Sales revenue received
+TX000097,2025-08-28 00:00:00,Income,Consulting & Services,13924,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000098,2025-08-29 00:00:00,Income,Maintenance Contracts,14671,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000099,2025-08-29 00:00:00,Income,Training & Workshops,7114,UPI,Client / Customer,Training & Workshops revenue received
+TX000100,2025-08-29 00:00:00,Income,Product Sales,9439,Debit Card,Client / Customer,Product Sales revenue received
+TX000101,2025-08-29 00:00:00,Income,Product Sales,2558,Debit Card,Client / Customer,Product Sales revenue received
+TX000102,2025-08-30 00:00:00,Income,Maintenance Contracts,13294,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000103,2025-08-30 00:00:00,Income,Training & Workshops,12189,UPI,Client / Customer,Training & Workshops revenue received
+TX000104,2025-08-30 00:00:00,Income,Product Sales,3732,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000105,2025-08-30 00:00:00,Income,Product Sales,8549,Cash,Client / Customer,Product Sales revenue received
+TX000106,2025-08-31 00:00:00,Income,Consulting & Services,6370,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000107,2025-08-31 00:00:00,Income,Maintenance Contracts,9307,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000108,2025-08-31 00:00:00,Income,Consulting & Services,13176,UPI,Client / Customer,Consulting & Services revenue received
+TX000109,2025-08-31 00:00:00,Expense,Logistics & Courier,2864,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000110,2025-09-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000111,2025-09-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000112,2025-09-01 00:00:00,Income,Consulting & Services,12757,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000113,2025-09-01 00:00:00,Income,Consulting & Services,18510,UPI,Client / Customer,Consulting & Services revenue received
+TX000114,2025-09-01 00:00:00,Income,Consulting & Services,15885,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000115,2025-09-01 00:00:00,Income,Consulting & Services,13742,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000116,2025-09-02 00:00:00,Income,Training & Workshops,3634,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000117,2025-09-02 00:00:00,Income,Consulting & Services,11539,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000118,2025-09-02 00:00:00,Expense,Raw Materials & Supplies,11652,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000119,2025-09-03 00:00:00,Income,Consulting & Services,18056,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000120,2025-09-03 00:00:00,Income,Maintenance Contracts,10274,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000121,2025-09-03 00:00:00,Income,Maintenance Contracts,29020,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000122,2025-09-03 00:00:00,Income,Training & Workshops,14133,Cash,Client / Customer,Training & Workshops revenue received
+TX000123,2025-09-03 00:00:00,Expense,Raw Materials & Supplies,9889,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000124,2025-09-04 00:00:00,Income,Maintenance Contracts,9253,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000125,2025-09-04 00:00:00,Income,Training & Workshops,8663,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000126,2025-09-05 00:00:00,Income,Product Sales,8811,Cash,Client / Customer,Product Sales revenue received
+TX000127,2025-09-05 00:00:00,Income,Consulting & Services,13346,UPI,Client / Customer,Consulting & Services revenue received
+TX000128,2025-09-05 00:00:00,Income,Training & Workshops,3027,Cash,Client / Customer,Training & Workshops revenue received
+TX000129,2025-09-05 00:00:00,Income,Consulting & Services,16934,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000130,2025-09-05 00:00:00,Expense,Logistics & Courier,2552,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000131,2025-09-06 00:00:00,Income,Product Sales,7420,Cash,Client / Customer,Product Sales revenue received
+TX000132,2025-09-06 00:00:00,Income,Maintenance Contracts,29852,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000133,2025-09-06 00:00:00,Income,Maintenance Contracts,21185,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000134,2025-09-07 00:00:00,Income,Training & Workshops,13894,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000135,2025-09-07 00:00:00,Income,Consulting & Services,23648,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000136,2025-09-08 00:00:00,Income,Maintenance Contracts,17401,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000137,2025-09-08 00:00:00,Income,Training & Workshops,12502,Cash,Client / Customer,Training & Workshops revenue received
+TX000138,2025-09-09 00:00:00,Income,Training & Workshops,10244,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000139,2025-09-09 00:00:00,Income,Training & Workshops,5780,UPI,Client / Customer,Training & Workshops revenue received
+TX000140,2025-09-09 00:00:00,Income,Maintenance Contracts,24890,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000141,2025-09-09 00:00:00,Expense,Raw Materials & Supplies,19023,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000142,2025-09-10 00:00:00,Expense,Electricity & Utilities,7420,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000143,2025-09-10 00:00:00,Expense,Internet & Software,3607,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000144,2025-09-10 00:00:00,Income,Product Sales,3257,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000145,2025-09-10 00:00:00,Income,Training & Workshops,13015,UPI,Client / Customer,Training & Workshops revenue received
+TX000146,2025-09-11 00:00:00,Income,Consulting & Services,17582,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000147,2025-09-11 00:00:00,Income,Training & Workshops,6997,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000148,2025-09-11 00:00:00,Income,Product Sales,4246,Credit Card,Client / Customer,Product Sales revenue received
+TX000149,2025-09-11 00:00:00,Income,Consulting & Services,10763,Cash,Client / Customer,Consulting & Services revenue received
+TX000150,2025-09-12 00:00:00,Income,Consulting & Services,8976,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000151,2025-09-12 00:00:00,Income,Consulting & Services,20225,Cash,Client / Customer,Consulting & Services revenue received
+TX000152,2025-09-12 00:00:00,Income,Maintenance Contracts,22502,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000153,2025-09-12 00:00:00,Income,Training & Workshops,11976,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000154,2025-09-13 00:00:00,Income,Training & Workshops,10373,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000155,2025-09-13 00:00:00,Income,Consulting & Services,14086,Cash,Client / Customer,Consulting & Services revenue received
+TX000156,2025-09-13 00:00:00,Income,Training & Workshops,13268,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000157,2025-09-13 00:00:00,Income,Maintenance Contracts,22413,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000158,2025-09-14 00:00:00,Income,Maintenance Contracts,19005,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000159,2025-09-14 00:00:00,Income,Product Sales,4767,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000160,2025-09-14 00:00:00,Expense,Logistics & Courier,1825,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000161,2025-09-15 00:00:00,Income,Product Sales,9297,Credit Card,Client / Customer,Product Sales revenue received
+TX000162,2025-09-15 00:00:00,Income,Maintenance Contracts,25780,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000163,2025-09-16 00:00:00,Income,Training & Workshops,9381,Cash,Client / Customer,Training & Workshops revenue received
+TX000164,2025-09-16 00:00:00,Income,Product Sales,11932,Credit Card,Client / Customer,Product Sales revenue received
+TX000165,2025-09-17 00:00:00,Income,Maintenance Contracts,20779,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000166,2025-09-17 00:00:00,Income,Consulting & Services,20998,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000167,2025-09-17 00:00:00,Income,Maintenance Contracts,22281,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000168,2025-09-17 00:00:00,Expense,Marketing & Ads,7312,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000169,2025-09-18 00:00:00,Income,Training & Workshops,5091,Cash,Client / Customer,Training & Workshops revenue received
+TX000170,2025-09-18 00:00:00,Income,Product Sales,8955,Cash,Client / Customer,Product Sales revenue received
+TX000171,2025-09-19 00:00:00,Income,Product Sales,9522,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000172,2025-09-19 00:00:00,Income,Training & Workshops,5977,UPI,Client / Customer,Training & Workshops revenue received
+TX000173,2025-09-19 00:00:00,Expense,Marketing & Ads,5733,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000174,2025-09-20 00:00:00,Income,Maintenance Contracts,20423,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000175,2025-09-20 00:00:00,Income,Training & Workshops,7133,UPI,Client / Customer,Training & Workshops revenue received
+TX000176,2025-09-20 00:00:00,Income,Training & Workshops,3317,Cash,Client / Customer,Training & Workshops revenue received
+TX000177,2025-09-20 00:00:00,Expense,Marketing & Ads,5836,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000178,2025-09-21 00:00:00,Income,Product Sales,3008,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000179,2025-09-21 00:00:00,Income,Consulting & Services,5667,Cash,Client / Customer,Consulting & Services revenue received
+TX000180,2025-09-21 00:00:00,Expense,Raw Materials & Supplies,15758,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000181,2025-09-22 00:00:00,Income,Consulting & Services,20238,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000182,2025-09-22 00:00:00,Income,Maintenance Contracts,13498,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000183,2025-09-23 00:00:00,Income,Product Sales,5183,Debit Card,Client / Customer,Product Sales revenue received
+TX000184,2025-09-23 00:00:00,Income,Product Sales,11981,UPI,Client / Customer,Product Sales revenue received
+TX000185,2025-09-23 00:00:00,Income,Maintenance Contracts,26867,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000186,2025-09-23 00:00:00,Income,Training & Workshops,14714,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000187,2025-09-23 00:00:00,Expense,Logistics & Courier,2194,UPI,Approved Vendor,Logistics & Courier purchase
+TX000188,2025-09-24 00:00:00,Income,Maintenance Contracts,27674,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000189,2025-09-24 00:00:00,Income,Product Sales,8188,Cash,Client / Customer,Product Sales revenue received
+TX000190,2025-09-24 00:00:00,Income,Training & Workshops,13838,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000191,2025-09-24 00:00:00,Income,Product Sales,10789,Debit Card,Client / Customer,Product Sales revenue received
+TX000192,2025-09-24 00:00:00,Expense,Marketing & Ads,8015,UPI,Approved Vendor,Marketing & Ads purchase
+TX000193,2025-09-25 00:00:00,Income,Maintenance Contracts,28826,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000194,2025-09-25 00:00:00,Income,Consulting & Services,19270,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000195,2025-09-25 00:00:00,Income,Maintenance Contracts,28182,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000196,2025-09-26 00:00:00,Income,Training & Workshops,14977,Cash,Client / Customer,Training & Workshops revenue received
+TX000197,2025-09-26 00:00:00,Income,Maintenance Contracts,18561,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000198,2025-09-26 00:00:00,Income,Product Sales,7069,Credit Card,Client / Customer,Product Sales revenue received
+TX000199,2025-09-26 00:00:00,Expense,Marketing & Ads,8668,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000200,2025-09-27 00:00:00,Income,Training & Workshops,8511,UPI,Client / Customer,Training & Workshops revenue received
+TX000201,2025-09-27 00:00:00,Income,Training & Workshops,8325,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000202,2025-09-27 00:00:00,Income,Training & Workshops,6475,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000203,2025-09-27 00:00:00,Income,Maintenance Contracts,19152,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000204,2025-09-28 00:00:00,Income,Maintenance Contracts,26212,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000205,2025-09-28 00:00:00,Income,Consulting & Services,7805,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000206,2025-09-28 00:00:00,Income,Training & Workshops,11004,Cash,Client / Customer,Training & Workshops revenue received
+TX000207,2025-09-28 00:00:00,Income,Consulting & Services,20600,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000208,2025-09-29 00:00:00,Income,Product Sales,7320,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000209,2025-09-29 00:00:00,Income,Training & Workshops,14334,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000210,2025-09-29 00:00:00,Expense,Logistics & Courier,2711,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000211,2025-09-30 00:00:00,Income,Maintenance Contracts,21942,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000212,2025-09-30 00:00:00,Income,Maintenance Contracts,19528,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000213,2025-09-30 00:00:00,Income,Maintenance Contracts,18047,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000214,2025-09-30 00:00:00,Income,Consulting & Services,8953,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000215,2025-09-30 00:00:00,Expense,Logistics & Courier,3394,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000216,2025-10-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000217,2025-10-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000218,2025-10-01 00:00:00,Income,Consulting & Services,12090,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000219,2025-10-01 00:00:00,Income,Maintenance Contracts,27319,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000220,2025-10-02 00:00:00,Income,Consulting & Services,14707,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000221,2025-10-02 00:00:00,Income,Maintenance Contracts,13879,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000222,2025-10-02 00:00:00,Expense,Logistics & Courier,1718,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000223,2025-10-03 00:00:00,Income,Product Sales,11566,Debit Card,Client / Customer,Product Sales revenue received
+TX000224,2025-10-03 00:00:00,Income,Consulting & Services,21085,UPI,Client / Customer,Consulting & Services revenue received
+TX000225,2025-10-04 00:00:00,Income,Maintenance Contracts,23381,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000226,2025-10-04 00:00:00,Income,Training & Workshops,8582,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000227,2025-10-04 00:00:00,Income,Product Sales,6636,Credit Card,Client / Customer,Product Sales revenue received
+TX000228,2025-10-04 00:00:00,Income,Product Sales,3570,Credit Card,Client / Customer,Product Sales revenue received
+TX000229,2025-10-05 00:00:00,Income,Product Sales,4985,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000230,2025-10-05 00:00:00,Income,Maintenance Contracts,10791,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000231,2025-10-05 00:00:00,Income,Product Sales,11643,Credit Card,Client / Customer,Product Sales revenue received
+TX000232,2025-10-05 00:00:00,Income,Consulting & Services,22123,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000233,2025-10-06 00:00:00,Income,Maintenance Contracts,27284,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000234,2025-10-06 00:00:00,Income,Maintenance Contracts,26632,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000235,2025-10-06 00:00:00,Income,Product Sales,4125,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000236,2025-10-07 00:00:00,Income,Product Sales,5073,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000237,2025-10-07 00:00:00,Income,Consulting & Services,23087,UPI,Client / Customer,Consulting & Services revenue received
+TX000238,2025-10-07 00:00:00,Income,Consulting & Services,5087,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000239,2025-10-08 00:00:00,Income,Training & Workshops,7771,UPI,Client / Customer,Training & Workshops revenue received
+TX000240,2025-10-08 00:00:00,Income,Consulting & Services,14440,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000241,2025-10-08 00:00:00,Income,Training & Workshops,4166,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000242,2025-10-08 00:00:00,Income,Maintenance Contracts,28481,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000243,2025-10-09 00:00:00,Income,Training & Workshops,4880,Cash,Client / Customer,Training & Workshops revenue received
+TX000244,2025-10-09 00:00:00,Income,Consulting & Services,9882,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000245,2025-10-10 00:00:00,Expense,Electricity & Utilities,6792,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000246,2025-10-10 00:00:00,Expense,Internet & Software,3322,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000247,2025-10-10 00:00:00,Income,Maintenance Contracts,27498,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000248,2025-10-10 00:00:00,Income,Maintenance Contracts,22390,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000249,2025-10-11 00:00:00,Income,Training & Workshops,7460,Cash,Client / Customer,Training & Workshops revenue received
+TX000250,2025-10-11 00:00:00,Income,Training & Workshops,10172,UPI,Client / Customer,Training & Workshops revenue received
+TX000251,2025-10-11 00:00:00,Income,Product Sales,9578,Debit Card,Client / Customer,Product Sales revenue received
+TX000252,2025-10-12 00:00:00,Income,Product Sales,6250,Cash,Client / Customer,Product Sales revenue received
+TX000253,2025-10-12 00:00:00,Income,Product Sales,6915,Cash,Client / Customer,Product Sales revenue received
+TX000254,2025-10-12 00:00:00,Expense,Raw Materials & Supplies,15708,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000255,2025-10-13 00:00:00,Income,Training & Workshops,7557,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000256,2025-10-13 00:00:00,Income,Training & Workshops,13400,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000257,2025-10-13 00:00:00,Income,Product Sales,10200,Debit Card,Client / Customer,Product Sales revenue received
+TX000258,2025-10-13 00:00:00,Income,Training & Workshops,8460,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000259,2025-10-14 00:00:00,Income,Maintenance Contracts,21488,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000260,2025-10-14 00:00:00,Income,Maintenance Contracts,29711,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000261,2025-10-15 00:00:00,Income,Product Sales,9951,UPI,Client / Customer,Product Sales revenue received
+TX000262,2025-10-15 00:00:00,Income,Maintenance Contracts,16270,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000263,2025-10-15 00:00:00,Income,Product Sales,9122,Cash,Client / Customer,Product Sales revenue received
+TX000264,2025-10-15 00:00:00,Income,Product Sales,11389,Credit Card,Client / Customer,Product Sales revenue received
+TX000265,2025-10-16 00:00:00,Income,Maintenance Contracts,28402,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000266,2025-10-16 00:00:00,Income,Training & Workshops,3845,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000267,2025-10-16 00:00:00,Expense,Raw Materials & Supplies,12719,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000268,2025-10-17 00:00:00,Income,Training & Workshops,4989,UPI,Client / Customer,Training & Workshops revenue received
+TX000269,2025-10-17 00:00:00,Income,Consulting & Services,10189,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000270,2025-10-17 00:00:00,Income,Product Sales,11548,Credit Card,Client / Customer,Product Sales revenue received
+TX000271,2025-10-17 00:00:00,Income,Product Sales,6181,UPI,Client / Customer,Product Sales revenue received
+TX000272,2025-10-18 00:00:00,Income,Consulting & Services,21330,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000273,2025-10-18 00:00:00,Income,Maintenance Contracts,21614,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000274,2025-10-19 00:00:00,Income,Training & Workshops,12031,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000275,2025-10-19 00:00:00,Income,Training & Workshops,6122,Cash,Client / Customer,Training & Workshops revenue received
+TX000276,2025-10-20 00:00:00,Income,Product Sales,7026,Credit Card,Client / Customer,Product Sales revenue received
+TX000277,2025-10-20 00:00:00,Income,Maintenance Contracts,24637,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000278,2025-10-21 00:00:00,Income,Maintenance Contracts,27232,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000279,2025-10-21 00:00:00,Income,Training & Workshops,5434,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000280,2025-10-21 00:00:00,Income,Training & Workshops,8654,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000281,2025-10-22 00:00:00,Income,Training & Workshops,10460,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000282,2025-10-22 00:00:00,Income,Consulting & Services,12825,Cash,Client / Customer,Consulting & Services revenue received
+TX000283,2025-10-22 00:00:00,Income,Training & Workshops,6826,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000284,2025-10-22 00:00:00,Income,Product Sales,7713,Credit Card,Client / Customer,Product Sales revenue received
+TX000285,2025-10-23 00:00:00,Income,Training & Workshops,13873,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000286,2025-10-23 00:00:00,Income,Training & Workshops,3606,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000287,2025-10-23 00:00:00,Income,Maintenance Contracts,11288,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000288,2025-10-23 00:00:00,Expense,Marketing & Ads,4125,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000289,2025-10-24 00:00:00,Income,Training & Workshops,13727,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000290,2025-10-24 00:00:00,Income,Product Sales,10192,Debit Card,Client / Customer,Product Sales revenue received
+TX000291,2025-10-24 00:00:00,Expense,Logistics & Courier,2828,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000292,2025-10-25 00:00:00,Income,Maintenance Contracts,25485,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000293,2025-10-25 00:00:00,Income,Maintenance Contracts,28538,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000294,2025-10-26 00:00:00,Income,Product Sales,6346,Debit Card,Client / Customer,Product Sales revenue received
+TX000295,2025-10-26 00:00:00,Income,Consulting & Services,7961,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000296,2025-10-27 00:00:00,Income,Product Sales,9769,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000297,2025-10-27 00:00:00,Income,Maintenance Contracts,8948,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000298,2025-10-27 00:00:00,Income,Maintenance Contracts,9838,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000299,2025-10-27 00:00:00,Income,Maintenance Contracts,20282,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000300,2025-10-27 00:00:00,Expense,Logistics & Courier,2887,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000301,2025-10-28 00:00:00,Income,Consulting & Services,10570,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000302,2025-10-28 00:00:00,Income,Product Sales,8767,Cash,Client / Customer,Product Sales revenue received
+TX000303,2025-10-28 00:00:00,Income,Consulting & Services,21307,Cash,Client / Customer,Consulting & Services revenue received
+TX000304,2025-10-28 00:00:00,Income,Consulting & Services,12608,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000305,2025-10-29 00:00:00,Income,Maintenance Contracts,29851,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000306,2025-10-29 00:00:00,Income,Training & Workshops,7712,Cash,Client / Customer,Training & Workshops revenue received
+TX000307,2025-10-29 00:00:00,Income,Consulting & Services,7420,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000308,2025-10-30 00:00:00,Income,Maintenance Contracts,28936,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000309,2025-10-30 00:00:00,Income,Maintenance Contracts,22969,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000310,2025-10-30 00:00:00,Income,Consulting & Services,17605,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000311,2025-10-30 00:00:00,Income,Product Sales,6386,Credit Card,Client / Customer,Product Sales revenue received
+TX000312,2025-10-31 00:00:00,Income,Maintenance Contracts,17674,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000313,2025-10-31 00:00:00,Income,Training & Workshops,7497,UPI,Client / Customer,Training & Workshops revenue received
+TX000314,2025-10-31 00:00:00,Income,Product Sales,10638,Debit Card,Client / Customer,Product Sales revenue received
+TX000315,2025-10-31 00:00:00,Income,Consulting & Services,24892,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000316,2025-10-31 00:00:00,Expense,Raw Materials & Supplies,18172,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000317,2025-11-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000318,2025-11-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000319,2025-11-01 00:00:00,Income,Consulting & Services,8183,UPI,Client / Customer,Consulting & Services revenue received
+TX000320,2025-11-01 00:00:00,Income,Maintenance Contracts,22444,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000321,2025-11-01 00:00:00,Income,Maintenance Contracts,12306,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000322,2025-11-01 00:00:00,Income,Maintenance Contracts,18705,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000323,2025-11-01 00:00:00,Expense,Raw Materials & Supplies,20886,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000324,2025-11-02 00:00:00,Income,Maintenance Contracts,13391,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000325,2025-11-02 00:00:00,Income,Training & Workshops,7835,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000326,2025-11-02 00:00:00,Income,Product Sales,10173,UPI,Client / Customer,Product Sales revenue received
+TX000327,2025-11-02 00:00:00,Expense,Raw Materials & Supplies,19080,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000328,2025-11-03 00:00:00,Income,Training & Workshops,12131,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000329,2025-11-03 00:00:00,Income,Product Sales,8964,UPI,Client / Customer,Product Sales revenue received
+TX000330,2025-11-03 00:00:00,Income,Maintenance Contracts,25582,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000331,2025-11-03 00:00:00,Income,Training & Workshops,9038,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000332,2025-11-04 00:00:00,Income,Maintenance Contracts,11550,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000333,2025-11-04 00:00:00,Income,Training & Workshops,3410,Cash,Client / Customer,Training & Workshops revenue received
+TX000334,2025-11-04 00:00:00,Income,Maintenance Contracts,27991,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000335,2025-11-04 00:00:00,Income,Product Sales,10106,Debit Card,Client / Customer,Product Sales revenue received
+TX000336,2025-11-05 00:00:00,Income,Consulting & Services,6485,UPI,Client / Customer,Consulting & Services revenue received
+TX000337,2025-11-05 00:00:00,Income,Maintenance Contracts,24142,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000338,2025-11-05 00:00:00,Expense,Logistics & Courier,1755,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000339,2025-11-06 00:00:00,Income,Maintenance Contracts,29970,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000340,2025-11-06 00:00:00,Income,Training & Workshops,12622,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000341,2025-11-06 00:00:00,Income,Training & Workshops,13730,UPI,Client / Customer,Training & Workshops revenue received
+TX000342,2025-11-07 00:00:00,Income,Training & Workshops,7583,UPI,Client / Customer,Training & Workshops revenue received
+TX000343,2025-11-07 00:00:00,Income,Maintenance Contracts,15119,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000344,2025-11-07 00:00:00,Income,Training & Workshops,6868,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000345,2025-11-07 00:00:00,Income,Product Sales,8518,Cash,Client / Customer,Product Sales revenue received
+TX000346,2025-11-08 00:00:00,Income,Maintenance Contracts,9984,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000347,2025-11-08 00:00:00,Income,Maintenance Contracts,14219,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000348,2025-11-08 00:00:00,Income,Training & Workshops,4501,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000349,2025-11-08 00:00:00,Income,Product Sales,3328,Debit Card,Client / Customer,Product Sales revenue received
+TX000350,2025-11-08 00:00:00,Expense,Raw Materials & Supplies,20893,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000351,2025-11-09 00:00:00,Income,Product Sales,11580,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000352,2025-11-09 00:00:00,Income,Consulting & Services,12634,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000353,2025-11-10 00:00:00,Expense,Electricity & Utilities,8941,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000354,2025-11-10 00:00:00,Expense,Internet & Software,3205,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000355,2025-11-10 00:00:00,Income,Consulting & Services,9259,Cash,Client / Customer,Consulting & Services revenue received
+TX000356,2025-11-10 00:00:00,Income,Maintenance Contracts,13717,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000357,2025-11-10 00:00:00,Income,Product Sales,4659,UPI,Client / Customer,Product Sales revenue received
+TX000358,2025-11-10 00:00:00,Expense,Raw Materials & Supplies,17647,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000359,2025-11-11 00:00:00,Income,Consulting & Services,13695,UPI,Client / Customer,Consulting & Services revenue received
+TX000360,2025-11-11 00:00:00,Income,Consulting & Services,18794,Cash,Client / Customer,Consulting & Services revenue received
+TX000361,2025-11-11 00:00:00,Expense,Raw Materials & Supplies,15802,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000362,2025-11-12 00:00:00,Income,Product Sales,9905,Cash,Client / Customer,Product Sales revenue received
+TX000363,2025-11-12 00:00:00,Income,Consulting & Services,6420,Cash,Client / Customer,Consulting & Services revenue received
+TX000364,2025-11-12 00:00:00,Income,Maintenance Contracts,23009,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000365,2025-11-12 00:00:00,Expense,Marketing & Ads,7290,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000366,2025-11-13 00:00:00,Income,Product Sales,10532,Credit Card,Client / Customer,Product Sales revenue received
+TX000367,2025-11-13 00:00:00,Income,Product Sales,3823,Debit Card,Client / Customer,Product Sales revenue received
+TX000368,2025-11-13 00:00:00,Income,Consulting & Services,7152,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000369,2025-11-13 00:00:00,Income,Maintenance Contracts,28457,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000370,2025-11-14 00:00:00,Income,Training & Workshops,12787,Cash,Client / Customer,Training & Workshops revenue received
+TX000371,2025-11-14 00:00:00,Income,Maintenance Contracts,22867,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000372,2025-11-14 00:00:00,Income,Training & Workshops,4624,UPI,Client / Customer,Training & Workshops revenue received
+TX000373,2025-11-15 00:00:00,Income,Consulting & Services,19092,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000374,2025-11-15 00:00:00,Income,Consulting & Services,18559,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000375,2025-11-15 00:00:00,Income,Training & Workshops,9532,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000376,2025-11-15 00:00:00,Income,Product Sales,7620,Credit Card,Client / Customer,Product Sales revenue received
+TX000377,2025-11-15 00:00:00,Expense,Marketing & Ads,7066,UPI,Approved Vendor,Marketing & Ads purchase
+TX000378,2025-11-16 00:00:00,Income,Training & Workshops,4099,UPI,Client / Customer,Training & Workshops revenue received
+TX000379,2025-11-16 00:00:00,Income,Product Sales,4027,Credit Card,Client / Customer,Product Sales revenue received
+TX000380,2025-11-16 00:00:00,Income,Product Sales,8605,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000381,2025-11-16 00:00:00,Income,Product Sales,11701,Cash,Client / Customer,Product Sales revenue received
+TX000382,2025-11-16 00:00:00,Expense,Raw Materials & Supplies,14730,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000383,2025-11-17 00:00:00,Income,Training & Workshops,14813,UPI,Client / Customer,Training & Workshops revenue received
+TX000384,2025-11-17 00:00:00,Income,Maintenance Contracts,27674,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000385,2025-11-17 00:00:00,Income,Maintenance Contracts,11394,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000386,2025-11-17 00:00:00,Income,Consulting & Services,10070,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000387,2025-11-17 00:00:00,Expense,Raw Materials & Supplies,13736,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000388,2025-11-18 00:00:00,Income,Product Sales,7064,Cash,Client / Customer,Product Sales revenue received
+TX000389,2025-11-18 00:00:00,Income,Consulting & Services,19061,Cash,Client / Customer,Consulting & Services revenue received
+TX000390,2025-11-18 00:00:00,Income,Product Sales,6881,UPI,Client / Customer,Product Sales revenue received
+TX000391,2025-11-18 00:00:00,Expense,Logistics & Courier,2465,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000392,2025-11-19 00:00:00,Income,Product Sales,5472,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000393,2025-11-19 00:00:00,Income,Training & Workshops,4140,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000394,2025-11-19 00:00:00,Income,Product Sales,4003,Cash,Client / Customer,Product Sales revenue received
+TX000395,2025-11-19 00:00:00,Expense,Marketing & Ads,7716,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000396,2025-11-20 00:00:00,Income,Maintenance Contracts,18211,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000397,2025-11-20 00:00:00,Income,Product Sales,3361,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000398,2025-11-20 00:00:00,Expense,Logistics & Courier,1403,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000399,2025-11-21 00:00:00,Income,Maintenance Contracts,22519,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000400,2025-11-21 00:00:00,Income,Training & Workshops,12946,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000401,2025-11-22 00:00:00,Income,Product Sales,8155,Credit Card,Client / Customer,Product Sales revenue received
+TX000402,2025-11-22 00:00:00,Income,Product Sales,7140,Cash,Client / Customer,Product Sales revenue received
+TX000403,2025-11-23 00:00:00,Income,Maintenance Contracts,9488,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000404,2025-11-23 00:00:00,Income,Training & Workshops,12819,UPI,Client / Customer,Training & Workshops revenue received
+TX000405,2025-11-23 00:00:00,Income,Product Sales,5849,Debit Card,Client / Customer,Product Sales revenue received
+TX000406,2025-11-23 00:00:00,Income,Consulting & Services,9496,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000407,2025-11-23 00:00:00,Expense,Raw Materials & Supplies,8126,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000408,2025-11-24 00:00:00,Income,Training & Workshops,5878,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000409,2025-11-24 00:00:00,Income,Training & Workshops,11725,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000410,2025-11-24 00:00:00,Income,Maintenance Contracts,10361,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000411,2025-11-24 00:00:00,Income,Product Sales,9647,UPI,Client / Customer,Product Sales revenue received
+TX000412,2025-11-25 00:00:00,Income,Maintenance Contracts,26866,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000413,2025-11-25 00:00:00,Income,Training & Workshops,14624,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000414,2025-11-25 00:00:00,Expense,Marketing & Ads,4170,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000415,2025-11-26 00:00:00,Income,Training & Workshops,14298,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000416,2025-11-26 00:00:00,Income,Product Sales,9655,UPI,Client / Customer,Product Sales revenue received
+TX000417,2025-11-26 00:00:00,Expense,Logistics & Courier,2840,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000418,2025-11-27 00:00:00,Income,Training & Workshops,8083,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000419,2025-11-27 00:00:00,Income,Consulting & Services,15913,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000420,2025-11-27 00:00:00,Expense,Logistics & Courier,1667,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000421,2025-11-28 00:00:00,Income,Consulting & Services,16448,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000422,2025-11-28 00:00:00,Income,Consulting & Services,12742,UPI,Client / Customer,Consulting & Services revenue received
+TX000423,2025-11-28 00:00:00,Income,Consulting & Services,13387,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000424,2025-11-28 00:00:00,Income,Consulting & Services,24739,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000425,2025-11-29 00:00:00,Income,Product Sales,5402,Credit Card,Client / Customer,Product Sales revenue received
+TX000426,2025-11-29 00:00:00,Income,Training & Workshops,12236,Cash,Client / Customer,Training & Workshops revenue received
+TX000427,2025-11-29 00:00:00,Income,Training & Workshops,14159,Cash,Client / Customer,Training & Workshops revenue received
+TX000428,2025-11-29 00:00:00,Income,Maintenance Contracts,28552,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000429,2025-11-29 00:00:00,Expense,Raw Materials & Supplies,15682,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000430,2025-11-30 00:00:00,Income,Maintenance Contracts,17000,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000431,2025-11-30 00:00:00,Income,Product Sales,8266,Cash,Client / Customer,Product Sales revenue received
+TX000432,2025-11-30 00:00:00,Income,Product Sales,7585,Credit Card,Client / Customer,Product Sales revenue received
+TX000433,2025-11-30 00:00:00,Income,Training & Workshops,3616,UPI,Client / Customer,Training & Workshops revenue received
+TX000434,2025-11-30 00:00:00,Expense,Marketing & Ads,4628,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000435,2025-12-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000436,2025-12-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000437,2025-12-01 00:00:00,Income,Training & Workshops,10581,Cash,Client / Customer,Training & Workshops revenue received
+TX000438,2025-12-01 00:00:00,Income,Product Sales,9868,Cash,Client / Customer,Product Sales revenue received
+TX000439,2025-12-02 00:00:00,Income,Training & Workshops,11214,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000440,2025-12-02 00:00:00,Income,Product Sales,9881,UPI,Client / Customer,Product Sales revenue received
+TX000441,2025-12-02 00:00:00,Income,Maintenance Contracts,10763,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000442,2025-12-03 00:00:00,Income,Consulting & Services,19344,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000443,2025-12-03 00:00:00,Income,Consulting & Services,16924,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000444,2025-12-04 00:00:00,Income,Training & Workshops,8543,Cash,Client / Customer,Training & Workshops revenue received
+TX000445,2025-12-04 00:00:00,Income,Product Sales,7982,UPI,Client / Customer,Product Sales revenue received
+TX000446,2025-12-04 00:00:00,Income,Maintenance Contracts,11096,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000447,2025-12-05 00:00:00,Income,Maintenance Contracts,29514,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000448,2025-12-05 00:00:00,Income,Consulting & Services,15923,UPI,Client / Customer,Consulting & Services revenue received
+TX000449,2025-12-05 00:00:00,Income,Consulting & Services,16462,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000450,2025-12-06 00:00:00,Income,Training & Workshops,5112,Cash,Client / Customer,Training & Workshops revenue received
+TX000451,2025-12-06 00:00:00,Income,Product Sales,7572,Cash,Client / Customer,Product Sales revenue received
+TX000452,2025-12-06 00:00:00,Income,Training & Workshops,13542,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000453,2025-12-06 00:00:00,Income,Consulting & Services,22248,UPI,Client / Customer,Consulting & Services revenue received
+TX000454,2025-12-07 00:00:00,Income,Maintenance Contracts,8597,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000455,2025-12-07 00:00:00,Income,Maintenance Contracts,13906,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000456,2025-12-07 00:00:00,Income,Maintenance Contracts,23934,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000457,2025-12-07 00:00:00,Expense,Raw Materials & Supplies,10538,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000458,2025-12-08 00:00:00,Income,Product Sales,10817,Cash,Client / Customer,Product Sales revenue received
+TX000459,2025-12-08 00:00:00,Income,Product Sales,8017,Cash,Client / Customer,Product Sales revenue received
+TX000460,2025-12-08 00:00:00,Income,Consulting & Services,24570,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000461,2025-12-08 00:00:00,Expense,Raw Materials & Supplies,21620,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000462,2025-12-09 00:00:00,Income,Consulting & Services,19341,UPI,Client / Customer,Consulting & Services revenue received
+TX000463,2025-12-09 00:00:00,Income,Training & Workshops,8968,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000464,2025-12-09 00:00:00,Income,Training & Workshops,13003,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000465,2025-12-09 00:00:00,Income,Training & Workshops,6833,Cash,Client / Customer,Training & Workshops revenue received
+TX000466,2025-12-09 00:00:00,Expense,Marketing & Ads,5589,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000467,2025-12-10 00:00:00,Expense,Electricity & Utilities,9278,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000468,2025-12-10 00:00:00,Expense,Internet & Software,4368,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000469,2025-12-10 00:00:00,Income,Training & Workshops,7616,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000470,2025-12-10 00:00:00,Income,Training & Workshops,5655,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000471,2025-12-10 00:00:00,Income,Consulting & Services,13192,UPI,Client / Customer,Consulting & Services revenue received
+TX000472,2025-12-11 00:00:00,Income,Product Sales,10952,UPI,Client / Customer,Product Sales revenue received
+TX000473,2025-12-11 00:00:00,Income,Maintenance Contracts,10748,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000474,2025-12-11 00:00:00,Income,Maintenance Contracts,22723,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000475,2025-12-11 00:00:00,Expense,Marketing & Ads,4751,UPI,Approved Vendor,Marketing & Ads purchase
+TX000476,2025-12-12 00:00:00,Income,Maintenance Contracts,8873,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000477,2025-12-12 00:00:00,Income,Product Sales,8995,Cash,Client / Customer,Product Sales revenue received
+TX000478,2025-12-12 00:00:00,Income,Maintenance Contracts,15725,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000479,2025-12-13 00:00:00,Income,Consulting & Services,5923,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000480,2025-12-13 00:00:00,Income,Product Sales,7993,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000481,2025-12-13 00:00:00,Income,Consulting & Services,6255,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000482,2025-12-14 00:00:00,Income,Consulting & Services,20371,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000483,2025-12-14 00:00:00,Income,Product Sales,3798,UPI,Client / Customer,Product Sales revenue received
+TX000484,2025-12-14 00:00:00,Income,Maintenance Contracts,15066,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000485,2025-12-15 00:00:00,Income,Training & Workshops,4821,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000486,2025-12-15 00:00:00,Income,Consulting & Services,14868,UPI,Client / Customer,Consulting & Services revenue received
+TX000487,2025-12-15 00:00:00,Income,Product Sales,6406,Credit Card,Client / Customer,Product Sales revenue received
+TX000488,2025-12-15 00:00:00,Income,Training & Workshops,4029,UPI,Client / Customer,Training & Workshops revenue received
+TX000489,2025-12-16 00:00:00,Income,Product Sales,10943,Cash,Client / Customer,Product Sales revenue received
+TX000490,2025-12-16 00:00:00,Income,Consulting & Services,9704,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000491,2025-12-16 00:00:00,Income,Training & Workshops,3025,Cash,Client / Customer,Training & Workshops revenue received
+TX000492,2025-12-16 00:00:00,Expense,Logistics & Courier,2906,UPI,Approved Vendor,Logistics & Courier purchase
+TX000493,2025-12-17 00:00:00,Income,Product Sales,11076,Debit Card,Client / Customer,Product Sales revenue received
+TX000494,2025-12-17 00:00:00,Income,Product Sales,11118,Cash,Client / Customer,Product Sales revenue received
+TX000495,2025-12-17 00:00:00,Income,Product Sales,8897,Credit Card,Client / Customer,Product Sales revenue received
+TX000496,2025-12-17 00:00:00,Income,Product Sales,8838,Debit Card,Client / Customer,Product Sales revenue received
+TX000497,2025-12-17 00:00:00,Expense,Raw Materials & Supplies,13850,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000498,2025-12-18 00:00:00,Income,Consulting & Services,8396,Cash,Client / Customer,Consulting & Services revenue received
+TX000499,2025-12-18 00:00:00,Income,Maintenance Contracts,12371,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000500,2025-12-18 00:00:00,Income,Maintenance Contracts,25891,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000501,2025-12-19 00:00:00,Income,Training & Workshops,14393,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000502,2025-12-19 00:00:00,Income,Consulting & Services,9418,UPI,Client / Customer,Consulting & Services revenue received
+TX000503,2025-12-20 00:00:00,Income,Product Sales,7307,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000504,2025-12-20 00:00:00,Income,Product Sales,5768,UPI,Client / Customer,Product Sales revenue received
+TX000505,2025-12-20 00:00:00,Income,Maintenance Contracts,18160,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000506,2025-12-20 00:00:00,Expense,Logistics & Courier,3139,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000507,2025-12-21 00:00:00,Income,Consulting & Services,14375,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000508,2025-12-21 00:00:00,Income,Product Sales,7938,Debit Card,Client / Customer,Product Sales revenue received
+TX000509,2025-12-21 00:00:00,Expense,Marketing & Ads,7579,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000510,2025-12-22 00:00:00,Income,Training & Workshops,9334,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000511,2025-12-22 00:00:00,Income,Consulting & Services,21259,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000512,2025-12-22 00:00:00,Income,Maintenance Contracts,25015,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000513,2025-12-22 00:00:00,Income,Product Sales,9455,UPI,Client / Customer,Product Sales revenue received
+TX000514,2025-12-23 00:00:00,Income,Maintenance Contracts,18525,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000515,2025-12-23 00:00:00,Income,Product Sales,7872,Debit Card,Client / Customer,Product Sales revenue received
+TX000516,2025-12-23 00:00:00,Expense,Logistics & Courier,2945,UPI,Approved Vendor,Logistics & Courier purchase
+TX000517,2025-12-24 00:00:00,Income,Training & Workshops,8759,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000518,2025-12-24 00:00:00,Income,Product Sales,8276,Cash,Client / Customer,Product Sales revenue received
+TX000519,2025-12-24 00:00:00,Income,Training & Workshops,7498,UPI,Client / Customer,Training & Workshops revenue received
+TX000520,2025-12-24 00:00:00,Income,Product Sales,9155,Debit Card,Client / Customer,Product Sales revenue received
+TX000521,2025-12-25 00:00:00,Income,Consulting & Services,6020,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000522,2025-12-25 00:00:00,Income,Training & Workshops,3570,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000523,2025-12-25 00:00:00,Income,Product Sales,6366,Debit Card,Client / Customer,Product Sales revenue received
+TX000524,2025-12-25 00:00:00,Income,Maintenance Contracts,20545,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000525,2025-12-25 00:00:00,Expense,Raw Materials & Supplies,19125,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000526,2025-12-26 00:00:00,Income,Maintenance Contracts,22547,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000527,2025-12-26 00:00:00,Income,Consulting & Services,22349,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000528,2025-12-26 00:00:00,Income,Training & Workshops,8150,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000529,2025-12-26 00:00:00,Expense,Raw Materials & Supplies,8424,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000530,2025-12-27 00:00:00,Income,Training & Workshops,11482,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000531,2025-12-27 00:00:00,Income,Product Sales,6788,Debit Card,Client / Customer,Product Sales revenue received
+TX000532,2025-12-28 00:00:00,Income,Maintenance Contracts,24095,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000533,2025-12-28 00:00:00,Income,Product Sales,4723,UPI,Client / Customer,Product Sales revenue received
+TX000534,2025-12-29 00:00:00,Income,Training & Workshops,4438,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000535,2025-12-29 00:00:00,Income,Maintenance Contracts,10127,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000536,2025-12-29 00:00:00,Income,Maintenance Contracts,17828,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000537,2025-12-29 00:00:00,Income,Consulting & Services,16845,Cash,Client / Customer,Consulting & Services revenue received
+TX000538,2025-12-29 00:00:00,Expense,Raw Materials & Supplies,20977,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000539,2025-12-30 00:00:00,Income,Training & Workshops,3430,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000540,2025-12-30 00:00:00,Income,Maintenance Contracts,23315,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000541,2025-12-30 00:00:00,Expense,Raw Materials & Supplies,9077,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000542,2025-12-31 00:00:00,Income,Training & Workshops,11612,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000543,2025-12-31 00:00:00,Income,Training & Workshops,12419,UPI,Client / Customer,Training & Workshops revenue received
+TX000544,2025-12-31 00:00:00,Income,Consulting & Services,15388,UPI,Client / Customer,Consulting & Services revenue received
+TX000545,2026-01-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000546,2026-01-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000547,2026-01-01 00:00:00,Income,Maintenance Contracts,12205,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000548,2026-01-01 00:00:00,Income,Consulting & Services,9228,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000549,2026-01-01 00:00:00,Income,Product Sales,4534,Cash,Client / Customer,Product Sales revenue received
+TX000550,2026-01-01 00:00:00,Income,Consulting & Services,14965,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000551,2026-01-01 00:00:00,Expense,Logistics & Courier,2123,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000552,2026-01-02 00:00:00,Income,Maintenance Contracts,10584,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000553,2026-01-02 00:00:00,Income,Consulting & Services,23049,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000554,2026-01-02 00:00:00,Income,Consulting & Services,14922,Cash,Client / Customer,Consulting & Services revenue received
+TX000555,2026-01-02 00:00:00,Income,Product Sales,10734,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000556,2026-01-03 00:00:00,Income,Consulting & Services,10609,Cash,Client / Customer,Consulting & Services revenue received
+TX000557,2026-01-03 00:00:00,Income,Maintenance Contracts,26468,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000558,2026-01-03 00:00:00,Income,Product Sales,3830,UPI,Client / Customer,Product Sales revenue received
+TX000559,2026-01-03 00:00:00,Income,Maintenance Contracts,29336,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000560,2026-01-04 00:00:00,Income,Product Sales,10659,Cash,Client / Customer,Product Sales revenue received
+TX000561,2026-01-04 00:00:00,Income,Maintenance Contracts,29034,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000562,2026-01-04 00:00:00,Income,Training & Workshops,7012,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000563,2026-01-04 00:00:00,Expense,Raw Materials & Supplies,19282,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000564,2026-01-05 00:00:00,Income,Training & Workshops,9809,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000565,2026-01-05 00:00:00,Income,Training & Workshops,6342,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000566,2026-01-06 00:00:00,Income,Maintenance Contracts,19317,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000567,2026-01-06 00:00:00,Income,Consulting & Services,17141,Cash,Client / Customer,Consulting & Services revenue received
+TX000568,2026-01-06 00:00:00,Income,Product Sales,7728,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000569,2026-01-07 00:00:00,Income,Training & Workshops,7061,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000570,2026-01-07 00:00:00,Income,Product Sales,3329,Debit Card,Client / Customer,Product Sales revenue received
+TX000571,2026-01-07 00:00:00,Income,Training & Workshops,13082,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000572,2026-01-07 00:00:00,Expense,Raw Materials & Supplies,21328,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000573,2026-01-08 00:00:00,Income,Maintenance Contracts,14220,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000574,2026-01-08 00:00:00,Income,Training & Workshops,11433,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000575,2026-01-08 00:00:00,Income,Training & Workshops,8055,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000576,2026-01-08 00:00:00,Income,Product Sales,3975,Credit Card,Client / Customer,Product Sales revenue received
+TX000577,2026-01-09 00:00:00,Income,Consulting & Services,24115,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000578,2026-01-09 00:00:00,Income,Product Sales,3328,Debit Card,Client / Customer,Product Sales revenue received
+TX000579,2026-01-10 00:00:00,Expense,Electricity & Utilities,9179,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000580,2026-01-10 00:00:00,Expense,Internet & Software,4577,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000581,2026-01-10 00:00:00,Income,Maintenance Contracts,25586,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000582,2026-01-10 00:00:00,Income,Product Sales,9560,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000583,2026-01-10 00:00:00,Income,Maintenance Contracts,19985,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000584,2026-01-10 00:00:00,Expense,Marketing & Ads,4419,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000585,2026-01-11 00:00:00,Income,Consulting & Services,16879,Cash,Client / Customer,Consulting & Services revenue received
+TX000586,2026-01-11 00:00:00,Income,Maintenance Contracts,10409,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000587,2026-01-11 00:00:00,Income,Training & Workshops,12008,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000588,2026-01-11 00:00:00,Income,Product Sales,4608,UPI,Client / Customer,Product Sales revenue received
+TX000589,2026-01-11 00:00:00,Expense,Marketing & Ads,8569,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000590,2026-01-12 00:00:00,Income,Consulting & Services,24741,Cash,Client / Customer,Consulting & Services revenue received
+TX000591,2026-01-12 00:00:00,Income,Training & Workshops,11193,UPI,Client / Customer,Training & Workshops revenue received
+TX000592,2026-01-12 00:00:00,Expense,Raw Materials & Supplies,19691,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000593,2026-01-13 00:00:00,Income,Training & Workshops,5440,Cash,Client / Customer,Training & Workshops revenue received
+TX000594,2026-01-13 00:00:00,Income,Consulting & Services,15746,Cash,Client / Customer,Consulting & Services revenue received
+TX000595,2026-01-13 00:00:00,Income,Maintenance Contracts,13324,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000596,2026-01-14 00:00:00,Income,Maintenance Contracts,27455,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000597,2026-01-14 00:00:00,Income,Training & Workshops,14611,Cash,Client / Customer,Training & Workshops revenue received
+TX000598,2026-01-14 00:00:00,Income,Maintenance Contracts,23561,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000599,2026-01-14 00:00:00,Income,Maintenance Contracts,18854,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000600,2026-01-15 00:00:00,Income,Maintenance Contracts,28619,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000601,2026-01-15 00:00:00,Income,Training & Workshops,7350,Cash,Client / Customer,Training & Workshops revenue received
+TX000602,2026-01-15 00:00:00,Income,Consulting & Services,6682,Cash,Client / Customer,Consulting & Services revenue received
+TX000603,2026-01-15 00:00:00,Income,Training & Workshops,5793,Cash,Client / Customer,Training & Workshops revenue received
+TX000604,2026-01-16 00:00:00,Income,Training & Workshops,5421,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000605,2026-01-16 00:00:00,Income,Product Sales,11880,UPI,Client / Customer,Product Sales revenue received
+TX000606,2026-01-16 00:00:00,Income,Consulting & Services,5620,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000607,2026-01-16 00:00:00,Income,Maintenance Contracts,21722,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000608,2026-01-17 00:00:00,Income,Training & Workshops,11221,Cash,Client / Customer,Training & Workshops revenue received
+TX000609,2026-01-17 00:00:00,Income,Training & Workshops,14917,UPI,Client / Customer,Training & Workshops revenue received
+TX000610,2026-01-18 00:00:00,Income,Consulting & Services,23379,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000611,2026-01-18 00:00:00,Income,Training & Workshops,11609,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000612,2026-01-18 00:00:00,Income,Maintenance Contracts,13674,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000613,2026-01-18 00:00:00,Income,Maintenance Contracts,25900,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000614,2026-01-19 00:00:00,Income,Maintenance Contracts,27990,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000615,2026-01-19 00:00:00,Income,Consulting & Services,13077,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000616,2026-01-19 00:00:00,Income,Maintenance Contracts,15368,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000617,2026-01-19 00:00:00,Income,Maintenance Contracts,14792,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000618,2026-01-19 00:00:00,Expense,Marketing & Ads,8591,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000619,2026-01-20 00:00:00,Income,Maintenance Contracts,11993,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000620,2026-01-20 00:00:00,Income,Training & Workshops,9464,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000621,2026-01-20 00:00:00,Income,Consulting & Services,14517,UPI,Client / Customer,Consulting & Services revenue received
+TX000622,2026-01-20 00:00:00,Expense,Logistics & Courier,1523,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000623,2026-01-21 00:00:00,Income,Maintenance Contracts,23698,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000624,2026-01-21 00:00:00,Income,Consulting & Services,22648,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000625,2026-01-21 00:00:00,Income,Maintenance Contracts,12498,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000626,2026-01-22 00:00:00,Income,Consulting & Services,12944,UPI,Client / Customer,Consulting & Services revenue received
+TX000627,2026-01-22 00:00:00,Income,Consulting & Services,12629,UPI,Client / Customer,Consulting & Services revenue received
+TX000628,2026-01-22 00:00:00,Income,Product Sales,9271,Debit Card,Client / Customer,Product Sales revenue received
+TX000629,2026-01-22 00:00:00,Income,Training & Workshops,4647,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000630,2026-01-22 00:00:00,Expense,Logistics & Courier,1846,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000631,2026-01-23 00:00:00,Income,Training & Workshops,10822,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000632,2026-01-23 00:00:00,Income,Maintenance Contracts,18524,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000633,2026-01-23 00:00:00,Income,Product Sales,3965,Cash,Client / Customer,Product Sales revenue received
+TX000634,2026-01-23 00:00:00,Income,Consulting & Services,22535,UPI,Client / Customer,Consulting & Services revenue received
+TX000635,2026-01-24 00:00:00,Income,Training & Workshops,5880,UPI,Client / Customer,Training & Workshops revenue received
+TX000636,2026-01-24 00:00:00,Income,Training & Workshops,11116,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000637,2026-01-25 00:00:00,Income,Product Sales,2651,Debit Card,Client / Customer,Product Sales revenue received
+TX000638,2026-01-25 00:00:00,Income,Product Sales,7989,Debit Card,Client / Customer,Product Sales revenue received
+TX000639,2026-01-25 00:00:00,Income,Training & Workshops,13507,Cash,Client / Customer,Training & Workshops revenue received
+TX000640,2026-01-26 00:00:00,Income,Training & Workshops,7470,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000641,2026-01-26 00:00:00,Income,Product Sales,7917,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000642,2026-01-27 00:00:00,Income,Maintenance Contracts,14101,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000643,2026-01-27 00:00:00,Income,Maintenance Contracts,17667,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000644,2026-01-27 00:00:00,Income,Consulting & Services,10750,Cash,Client / Customer,Consulting & Services revenue received
+TX000645,2026-01-27 00:00:00,Income,Training & Workshops,10007,Cash,Client / Customer,Training & Workshops revenue received
+TX000646,2026-01-27 00:00:00,Expense,Marketing & Ads,4781,UPI,Approved Vendor,Marketing & Ads purchase
+TX000647,2026-01-28 00:00:00,Income,Training & Workshops,8301,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000648,2026-01-28 00:00:00,Income,Product Sales,6772,Credit Card,Client / Customer,Product Sales revenue received
+TX000649,2026-01-28 00:00:00,Expense,Marketing & Ads,6700,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000650,2026-01-29 00:00:00,Income,Product Sales,6785,Debit Card,Client / Customer,Product Sales revenue received
+TX000651,2026-01-29 00:00:00,Income,Consulting & Services,7035,UPI,Client / Customer,Consulting & Services revenue received
+TX000652,2026-01-29 00:00:00,Income,Training & Workshops,8026,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000653,2026-01-29 00:00:00,Income,Training & Workshops,14240,Cash,Client / Customer,Training & Workshops revenue received
+TX000654,2026-01-30 00:00:00,Income,Maintenance Contracts,11847,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000655,2026-01-30 00:00:00,Income,Maintenance Contracts,28140,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000656,2026-01-30 00:00:00,Income,Consulting & Services,9376,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000657,2026-01-30 00:00:00,Income,Consulting & Services,19908,Cash,Client / Customer,Consulting & Services revenue received
+TX000658,2026-01-30 00:00:00,Expense,Logistics & Courier,3449,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000659,2026-01-31 00:00:00,Income,Consulting & Services,13108,Cash,Client / Customer,Consulting & Services revenue received
+TX000660,2026-01-31 00:00:00,Income,Product Sales,11109,Credit Card,Client / Customer,Product Sales revenue received
+TX000661,2026-01-31 00:00:00,Income,Maintenance Contracts,10559,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000662,2026-01-31 00:00:00,Income,Product Sales,3511,Cash,Client / Customer,Product Sales revenue received
+TX000663,2026-02-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000664,2026-02-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000665,2026-02-01 00:00:00,Income,Consulting & Services,10391,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000666,2026-02-01 00:00:00,Income,Training & Workshops,4904,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000667,2026-02-02 00:00:00,Income,Product Sales,10861,Credit Card,Client / Customer,Product Sales revenue received
+TX000668,2026-02-02 00:00:00,Income,Product Sales,9929,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000669,2026-02-02 00:00:00,Income,Training & Workshops,10484,Cash,Client / Customer,Training & Workshops revenue received
+TX000670,2026-02-02 00:00:00,Expense,Marketing & Ads,6524,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000671,2026-02-03 00:00:00,Income,Training & Workshops,7169,UPI,Client / Customer,Training & Workshops revenue received
+TX000672,2026-02-03 00:00:00,Income,Consulting & Services,23950,UPI,Client / Customer,Consulting & Services revenue received
+TX000673,2026-02-03 00:00:00,Expense,Marketing & Ads,4522,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000674,2026-02-04 00:00:00,Income,Product Sales,10234,UPI,Client / Customer,Product Sales revenue received
+TX000675,2026-02-04 00:00:00,Income,Maintenance Contracts,21397,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000676,2026-02-05 00:00:00,Income,Training & Workshops,9135,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000677,2026-02-05 00:00:00,Income,Training & Workshops,9184,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000678,2026-02-05 00:00:00,Income,Product Sales,11335,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000679,2026-02-05 00:00:00,Income,Maintenance Contracts,11887,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000680,2026-02-06 00:00:00,Income,Consulting & Services,12297,UPI,Client / Customer,Consulting & Services revenue received
+TX000681,2026-02-06 00:00:00,Income,Product Sales,7388,Credit Card,Client / Customer,Product Sales revenue received
+TX000682,2026-02-06 00:00:00,Income,Training & Workshops,11715,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000683,2026-02-07 00:00:00,Income,Training & Workshops,8671,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000684,2026-02-07 00:00:00,Income,Maintenance Contracts,14176,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000685,2026-02-07 00:00:00,Expense,Logistics & Courier,2917,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000686,2026-02-08 00:00:00,Income,Consulting & Services,11752,UPI,Client / Customer,Consulting & Services revenue received
+TX000687,2026-02-08 00:00:00,Income,Product Sales,3050,Credit Card,Client / Customer,Product Sales revenue received
+TX000688,2026-02-09 00:00:00,Income,Product Sales,6509,UPI,Client / Customer,Product Sales revenue received
+TX000689,2026-02-09 00:00:00,Income,Training & Workshops,10191,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000690,2026-02-09 00:00:00,Income,Consulting & Services,6849,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000691,2026-02-09 00:00:00,Income,Maintenance Contracts,15673,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000692,2026-02-09 00:00:00,Expense,Logistics & Courier,2513,UPI,Approved Vendor,Logistics & Courier purchase
+TX000693,2026-02-10 00:00:00,Expense,Electricity & Utilities,7736,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000694,2026-02-10 00:00:00,Expense,Internet & Software,3493,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000695,2026-02-10 00:00:00,Income,Consulting & Services,18551,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000696,2026-02-10 00:00:00,Income,Maintenance Contracts,9997,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000697,2026-02-10 00:00:00,Income,Consulting & Services,18998,Cash,Client / Customer,Consulting & Services revenue received
+TX000698,2026-02-10 00:00:00,Income,Training & Workshops,3768,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000699,2026-02-11 00:00:00,Income,Training & Workshops,11592,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000700,2026-02-11 00:00:00,Income,Training & Workshops,9688,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000701,2026-02-11 00:00:00,Income,Maintenance Contracts,20335,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000702,2026-02-11 00:00:00,Income,Training & Workshops,6948,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000703,2026-02-11 00:00:00,Expense,Logistics & Courier,1791,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000704,2026-02-12 00:00:00,Income,Training & Workshops,9824,Cash,Client / Customer,Training & Workshops revenue received
+TX000705,2026-02-12 00:00:00,Income,Consulting & Services,17727,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000706,2026-02-12 00:00:00,Expense,Marketing & Ads,4647,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000707,2026-02-13 00:00:00,Income,Product Sales,11275,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000708,2026-02-13 00:00:00,Income,Product Sales,6898,Credit Card,Client / Customer,Product Sales revenue received
+TX000709,2026-02-13 00:00:00,Income,Product Sales,3692,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000710,2026-02-14 00:00:00,Income,Consulting & Services,20708,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000711,2026-02-14 00:00:00,Income,Maintenance Contracts,17934,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000712,2026-02-14 00:00:00,Income,Consulting & Services,11226,UPI,Client / Customer,Consulting & Services revenue received
+TX000713,2026-02-14 00:00:00,Income,Training & Workshops,6974,Cash,Client / Customer,Training & Workshops revenue received
+TX000714,2026-02-15 00:00:00,Income,Consulting & Services,23090,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000715,2026-02-15 00:00:00,Income,Maintenance Contracts,20473,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000716,2026-02-15 00:00:00,Income,Maintenance Contracts,18106,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000717,2026-02-15 00:00:00,Expense,Marketing & Ads,7817,UPI,Approved Vendor,Marketing & Ads purchase
+TX000718,2026-02-16 00:00:00,Income,Training & Workshops,8246,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000719,2026-02-16 00:00:00,Income,Maintenance Contracts,18253,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000720,2026-02-16 00:00:00,Income,Product Sales,11716,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000721,2026-02-16 00:00:00,Income,Consulting & Services,5531,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000722,2026-02-17 00:00:00,Income,Training & Workshops,7836,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000723,2026-02-17 00:00:00,Income,Consulting & Services,15809,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000724,2026-02-17 00:00:00,Income,Training & Workshops,12335,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000725,2026-02-17 00:00:00,Income,Training & Workshops,12021,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000726,2026-02-17 00:00:00,Expense,Marketing & Ads,8018,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000727,2026-02-18 00:00:00,Income,Maintenance Contracts,13546,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000728,2026-02-18 00:00:00,Income,Training & Workshops,6015,Cash,Client / Customer,Training & Workshops revenue received
+TX000729,2026-02-19 00:00:00,Income,Product Sales,3717,UPI,Client / Customer,Product Sales revenue received
+TX000730,2026-02-19 00:00:00,Income,Product Sales,9256,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000731,2026-02-20 00:00:00,Income,Product Sales,4974,UPI,Client / Customer,Product Sales revenue received
+TX000732,2026-02-20 00:00:00,Income,Consulting & Services,21571,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000733,2026-02-20 00:00:00,Expense,Logistics & Courier,3179,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000734,2026-02-21 00:00:00,Income,Product Sales,2608,Cash,Client / Customer,Product Sales revenue received
+TX000735,2026-02-21 00:00:00,Income,Training & Workshops,3194,UPI,Client / Customer,Training & Workshops revenue received
+TX000736,2026-02-21 00:00:00,Income,Maintenance Contracts,25555,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000737,2026-02-21 00:00:00,Expense,Logistics & Courier,2963,UPI,Approved Vendor,Logistics & Courier purchase
+TX000738,2026-02-22 00:00:00,Income,Product Sales,11091,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000739,2026-02-22 00:00:00,Income,Consulting & Services,11289,Cash,Client / Customer,Consulting & Services revenue received
+TX000740,2026-02-23 00:00:00,Income,Maintenance Contracts,21005,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000741,2026-02-23 00:00:00,Income,Maintenance Contracts,21304,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000742,2026-02-23 00:00:00,Income,Consulting & Services,12400,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000743,2026-02-24 00:00:00,Income,Product Sales,4031,Credit Card,Client / Customer,Product Sales revenue received
+TX000744,2026-02-24 00:00:00,Income,Training & Workshops,9179,Cash,Client / Customer,Training & Workshops revenue received
+TX000745,2026-02-25 00:00:00,Income,Product Sales,5307,UPI,Client / Customer,Product Sales revenue received
+TX000746,2026-02-25 00:00:00,Income,Training & Workshops,10109,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000747,2026-02-25 00:00:00,Income,Product Sales,11153,UPI,Client / Customer,Product Sales revenue received
+TX000748,2026-02-25 00:00:00,Income,Consulting & Services,11927,Cash,Client / Customer,Consulting & Services revenue received
+TX000749,2026-02-26 00:00:00,Income,Product Sales,7093,Cash,Client / Customer,Product Sales revenue received
+TX000750,2026-02-26 00:00:00,Income,Product Sales,5438,Debit Card,Client / Customer,Product Sales revenue received
+TX000751,2026-02-26 00:00:00,Expense,Raw Materials & Supplies,17617,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000752,2026-02-27 00:00:00,Income,Training & Workshops,4260,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000753,2026-02-27 00:00:00,Income,Consulting & Services,23479,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000754,2026-02-27 00:00:00,Income,Training & Workshops,14092,Cash,Client / Customer,Training & Workshops revenue received
+TX000755,2026-02-27 00:00:00,Income,Maintenance Contracts,20577,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000756,2026-02-28 00:00:00,Income,Product Sales,10704,Debit Card,Client / Customer,Product Sales revenue received
+TX000757,2026-02-28 00:00:00,Income,Product Sales,4100,Credit Card,Client / Customer,Product Sales revenue received
+TX000758,2026-02-28 00:00:00,Income,Consulting & Services,7490,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000759,2026-02-28 00:00:00,Income,Training & Workshops,8347,UPI,Client / Customer,Training & Workshops revenue received
+TX000760,2026-03-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000761,2026-03-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000762,2026-03-01 00:00:00,Income,Training & Workshops,6737,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000763,2026-03-01 00:00:00,Income,Training & Workshops,10075,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000764,2026-03-01 00:00:00,Income,Training & Workshops,4404,Cash,Client / Customer,Training & Workshops revenue received
+TX000765,2026-03-01 00:00:00,Expense,Raw Materials & Supplies,19683,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000766,2026-03-02 00:00:00,Income,Maintenance Contracts,13053,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000767,2026-03-02 00:00:00,Income,Consulting & Services,17767,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000768,2026-03-02 00:00:00,Expense,Raw Materials & Supplies,8085,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000769,2026-03-03 00:00:00,Income,Maintenance Contracts,16839,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000770,2026-03-03 00:00:00,Income,Consulting & Services,7860,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000771,2026-03-03 00:00:00,Income,Training & Workshops,10353,Cash,Client / Customer,Training & Workshops revenue received
+TX000772,2026-03-04 00:00:00,Income,Product Sales,2930,UPI,Client / Customer,Product Sales revenue received
+TX000773,2026-03-04 00:00:00,Income,Maintenance Contracts,26160,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000774,2026-03-04 00:00:00,Income,Maintenance Contracts,20623,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000775,2026-03-04 00:00:00,Expense,Marketing & Ads,4693,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000776,2026-03-05 00:00:00,Income,Consulting & Services,23741,Cash,Client / Customer,Consulting & Services revenue received
+TX000777,2026-03-05 00:00:00,Income,Consulting & Services,17475,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000778,2026-03-05 00:00:00,Income,Consulting & Services,13811,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000779,2026-03-05 00:00:00,Income,Maintenance Contracts,24158,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000780,2026-03-05 00:00:00,Expense,Marketing & Ads,6260,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000781,2026-03-06 00:00:00,Income,Training & Workshops,4260,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000782,2026-03-06 00:00:00,Income,Maintenance Contracts,16080,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000783,2026-03-06 00:00:00,Income,Consulting & Services,20003,UPI,Client / Customer,Consulting & Services revenue received
+TX000784,2026-03-06 00:00:00,Expense,Raw Materials & Supplies,14483,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000785,2026-03-07 00:00:00,Income,Training & Workshops,8399,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000786,2026-03-07 00:00:00,Income,Maintenance Contracts,22110,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000787,2026-03-07 00:00:00,Income,Consulting & Services,14844,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000788,2026-03-07 00:00:00,Income,Consulting & Services,20696,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000789,2026-03-07 00:00:00,Expense,Marketing & Ads,6614,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX000790,2026-03-08 00:00:00,Income,Training & Workshops,12435,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000791,2026-03-08 00:00:00,Income,Maintenance Contracts,20322,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000792,2026-03-08 00:00:00,Income,Training & Workshops,8980,UPI,Client / Customer,Training & Workshops revenue received
+TX000793,2026-03-08 00:00:00,Income,Consulting & Services,24406,Cash,Client / Customer,Consulting & Services revenue received
+TX000794,2026-03-08 00:00:00,Expense,Logistics & Courier,1310,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000795,2026-03-09 00:00:00,Income,Consulting & Services,19367,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000796,2026-03-09 00:00:00,Income,Product Sales,9203,Credit Card,Client / Customer,Product Sales revenue received
+TX000797,2026-03-09 00:00:00,Income,Consulting & Services,14923,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000798,2026-03-09 00:00:00,Expense,Raw Materials & Supplies,19718,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000799,2026-03-10 00:00:00,Expense,Electricity & Utilities,8044,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000800,2026-03-10 00:00:00,Expense,Internet & Software,3351,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000801,2026-03-10 00:00:00,Income,Training & Workshops,12539,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000802,2026-03-10 00:00:00,Income,Training & Workshops,11907,UPI,Client / Customer,Training & Workshops revenue received
+TX000803,2026-03-10 00:00:00,Income,Maintenance Contracts,25593,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000804,2026-03-11 00:00:00,Income,Product Sales,6567,Debit Card,Client / Customer,Product Sales revenue received
+TX000805,2026-03-11 00:00:00,Income,Consulting & Services,6451,Cash,Client / Customer,Consulting & Services revenue received
+TX000806,2026-03-12 00:00:00,Income,Training & Workshops,8432,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000807,2026-03-12 00:00:00,Income,Product Sales,2672,UPI,Client / Customer,Product Sales revenue received
+TX000808,2026-03-12 00:00:00,Income,Maintenance Contracts,15274,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000809,2026-03-12 00:00:00,Income,Consulting & Services,19607,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000810,2026-03-12 00:00:00,Expense,Logistics & Courier,3249,UPI,Approved Vendor,Logistics & Courier purchase
+TX000811,2026-03-13 00:00:00,Income,Product Sales,10409,UPI,Client / Customer,Product Sales revenue received
+TX000812,2026-03-13 00:00:00,Income,Maintenance Contracts,21630,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000813,2026-03-13 00:00:00,Income,Product Sales,4821,Debit Card,Client / Customer,Product Sales revenue received
+TX000814,2026-03-13 00:00:00,Expense,Marketing & Ads,5694,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX000815,2026-03-14 00:00:00,Income,Maintenance Contracts,23602,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000816,2026-03-14 00:00:00,Income,Training & Workshops,14829,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000817,2026-03-14 00:00:00,Income,Maintenance Contracts,10201,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000818,2026-03-14 00:00:00,Expense,Logistics & Courier,1671,UPI,Approved Vendor,Logistics & Courier purchase
+TX000819,2026-03-15 00:00:00,Income,Product Sales,5192,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000820,2026-03-15 00:00:00,Income,Consulting & Services,23084,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000821,2026-03-15 00:00:00,Income,Maintenance Contracts,26345,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000822,2026-03-16 00:00:00,Income,Training & Workshops,13317,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000823,2026-03-16 00:00:00,Income,Consulting & Services,19160,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000824,2026-03-16 00:00:00,Expense,Logistics & Courier,2008,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000825,2026-03-17 00:00:00,Income,Training & Workshops,9370,UPI,Client / Customer,Training & Workshops revenue received
+TX000826,2026-03-17 00:00:00,Income,Consulting & Services,11743,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000827,2026-03-17 00:00:00,Income,Product Sales,11959,UPI,Client / Customer,Product Sales revenue received
+TX000828,2026-03-17 00:00:00,Income,Consulting & Services,16986,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000829,2026-03-17 00:00:00,Expense,Raw Materials & Supplies,12298,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000830,2026-03-18 00:00:00,Income,Maintenance Contracts,27561,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000831,2026-03-18 00:00:00,Income,Training & Workshops,12617,UPI,Client / Customer,Training & Workshops revenue received
+TX000832,2026-03-18 00:00:00,Income,Maintenance Contracts,19533,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000833,2026-03-19 00:00:00,Income,Maintenance Contracts,28135,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000834,2026-03-19 00:00:00,Income,Product Sales,4694,Debit Card,Client / Customer,Product Sales revenue received
+TX000835,2026-03-19 00:00:00,Income,Product Sales,6408,Debit Card,Client / Customer,Product Sales revenue received
+TX000836,2026-03-19 00:00:00,Income,Product Sales,5499,Debit Card,Client / Customer,Product Sales revenue received
+TX000837,2026-03-20 00:00:00,Income,Training & Workshops,9852,Cash,Client / Customer,Training & Workshops revenue received
+TX000838,2026-03-20 00:00:00,Income,Consulting & Services,23835,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000839,2026-03-20 00:00:00,Income,Training & Workshops,6043,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000840,2026-03-20 00:00:00,Income,Consulting & Services,23183,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000841,2026-03-21 00:00:00,Income,Consulting & Services,15308,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000842,2026-03-21 00:00:00,Income,Product Sales,8382,UPI,Client / Customer,Product Sales revenue received
+TX000843,2026-03-22 00:00:00,Income,Training & Workshops,12200,Cash,Client / Customer,Training & Workshops revenue received
+TX000844,2026-03-22 00:00:00,Income,Training & Workshops,9703,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000845,2026-03-23 00:00:00,Income,Training & Workshops,5740,UPI,Client / Customer,Training & Workshops revenue received
+TX000846,2026-03-23 00:00:00,Income,Product Sales,6113,Debit Card,Client / Customer,Product Sales revenue received
+TX000847,2026-03-23 00:00:00,Income,Product Sales,7003,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000848,2026-03-24 00:00:00,Income,Training & Workshops,12267,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000849,2026-03-24 00:00:00,Income,Product Sales,11883,UPI,Client / Customer,Product Sales revenue received
+TX000850,2026-03-24 00:00:00,Expense,Logistics & Courier,2702,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000851,2026-03-25 00:00:00,Income,Training & Workshops,11951,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000852,2026-03-25 00:00:00,Income,Training & Workshops,4677,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000853,2026-03-25 00:00:00,Expense,Raw Materials & Supplies,15368,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000854,2026-03-26 00:00:00,Income,Product Sales,9693,UPI,Client / Customer,Product Sales revenue received
+TX000855,2026-03-26 00:00:00,Income,Consulting & Services,11877,Cash,Client / Customer,Consulting & Services revenue received
+TX000856,2026-03-26 00:00:00,Income,Maintenance Contracts,27997,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000857,2026-03-26 00:00:00,Expense,Raw Materials & Supplies,20858,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000858,2026-03-27 00:00:00,Income,Product Sales,11840,Debit Card,Client / Customer,Product Sales revenue received
+TX000859,2026-03-27 00:00:00,Income,Maintenance Contracts,27557,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000860,2026-03-27 00:00:00,Expense,Logistics & Courier,2398,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX000861,2026-03-28 00:00:00,Income,Maintenance Contracts,24856,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000862,2026-03-28 00:00:00,Income,Consulting & Services,18487,UPI,Client / Customer,Consulting & Services revenue received
+TX000863,2026-03-28 00:00:00,Income,Maintenance Contracts,29492,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000864,2026-03-28 00:00:00,Income,Consulting & Services,13181,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000865,2026-03-29 00:00:00,Income,Training & Workshops,11019,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000866,2026-03-29 00:00:00,Income,Maintenance Contracts,28572,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000867,2026-03-29 00:00:00,Expense,Raw Materials & Supplies,18381,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000868,2026-03-30 00:00:00,Income,Maintenance Contracts,20093,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000869,2026-03-30 00:00:00,Income,Training & Workshops,8362,Cash,Client / Customer,Training & Workshops revenue received
+TX000870,2026-03-30 00:00:00,Income,Product Sales,4026,Credit Card,Client / Customer,Product Sales revenue received
+TX000871,2026-03-31 00:00:00,Income,Maintenance Contracts,10075,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000872,2026-03-31 00:00:00,Income,Training & Workshops,6568,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000873,2026-03-31 00:00:00,Income,Consulting & Services,21210,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000874,2026-03-31 00:00:00,Income,Maintenance Contracts,17292,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000875,2026-04-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000876,2026-04-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000877,2026-04-01 00:00:00,Income,Training & Workshops,8631,UPI,Client / Customer,Training & Workshops revenue received
+TX000878,2026-04-01 00:00:00,Income,Product Sales,4131,Credit Card,Client / Customer,Product Sales revenue received
+TX000879,2026-04-01 00:00:00,Expense,Raw Materials & Supplies,15230,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000880,2026-04-02 00:00:00,Income,Training & Workshops,6314,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000881,2026-04-02 00:00:00,Income,Maintenance Contracts,13209,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000882,2026-04-02 00:00:00,Expense,Marketing & Ads,6051,UPI,Approved Vendor,Marketing & Ads purchase
+TX000883,2026-04-03 00:00:00,Income,Consulting & Services,6696,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000884,2026-04-03 00:00:00,Income,Maintenance Contracts,15672,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000885,2026-04-03 00:00:00,Income,Product Sales,4059,UPI,Client / Customer,Product Sales revenue received
+TX000886,2026-04-03 00:00:00,Expense,Raw Materials & Supplies,10174,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000887,2026-04-04 00:00:00,Income,Training & Workshops,3152,UPI,Client / Customer,Training & Workshops revenue received
+TX000888,2026-04-04 00:00:00,Income,Maintenance Contracts,11951,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000889,2026-04-05 00:00:00,Income,Product Sales,6251,Credit Card,Client / Customer,Product Sales revenue received
+TX000890,2026-04-05 00:00:00,Income,Product Sales,4178,UPI,Client / Customer,Product Sales revenue received
+TX000891,2026-04-05 00:00:00,Income,Maintenance Contracts,20044,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000892,2026-04-05 00:00:00,Expense,Raw Materials & Supplies,18511,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000893,2026-04-06 00:00:00,Income,Product Sales,11191,Cash,Client / Customer,Product Sales revenue received
+TX000894,2026-04-06 00:00:00,Income,Product Sales,5188,Credit Card,Client / Customer,Product Sales revenue received
+TX000895,2026-04-06 00:00:00,Expense,Raw Materials & Supplies,18290,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000896,2026-04-07 00:00:00,Income,Training & Workshops,13093,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000897,2026-04-07 00:00:00,Income,Consulting & Services,7840,UPI,Client / Customer,Consulting & Services revenue received
+TX000898,2026-04-07 00:00:00,Expense,Raw Materials & Supplies,17659,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000899,2026-04-08 00:00:00,Income,Maintenance Contracts,22070,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000900,2026-04-08 00:00:00,Income,Consulting & Services,13119,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000901,2026-04-08 00:00:00,Income,Product Sales,6565,Cash,Client / Customer,Product Sales revenue received
+TX000902,2026-04-09 00:00:00,Income,Maintenance Contracts,8878,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000903,2026-04-09 00:00:00,Income,Consulting & Services,21965,Cash,Client / Customer,Consulting & Services revenue received
+TX000904,2026-04-09 00:00:00,Income,Consulting & Services,17836,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000905,2026-04-09 00:00:00,Income,Product Sales,6421,Credit Card,Client / Customer,Product Sales revenue received
+TX000906,2026-04-09 00:00:00,Expense,Raw Materials & Supplies,16185,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000907,2026-04-10 00:00:00,Expense,Electricity & Utilities,8932,Bank Transfer,Power Corporation,Monthly electricity bill
+TX000908,2026-04-10 00:00:00,Expense,Internet & Software,3345,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX000909,2026-04-10 00:00:00,Income,Product Sales,8416,Debit Card,Client / Customer,Product Sales revenue received
+TX000910,2026-04-10 00:00:00,Income,Consulting & Services,17675,Cash,Client / Customer,Consulting & Services revenue received
+TX000911,2026-04-10 00:00:00,Income,Training & Workshops,8986,Cash,Client / Customer,Training & Workshops revenue received
+TX000912,2026-04-10 00:00:00,Income,Consulting & Services,20434,UPI,Client / Customer,Consulting & Services revenue received
+TX000913,2026-04-10 00:00:00,Expense,Raw Materials & Supplies,8225,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000914,2026-04-11 00:00:00,Income,Product Sales,3490,Credit Card,Client / Customer,Product Sales revenue received
+TX000915,2026-04-11 00:00:00,Income,Maintenance Contracts,28597,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000916,2026-04-12 00:00:00,Income,Training & Workshops,4350,Cash,Client / Customer,Training & Workshops revenue received
+TX000917,2026-04-12 00:00:00,Income,Consulting & Services,14092,UPI,Client / Customer,Consulting & Services revenue received
+TX000918,2026-04-12 00:00:00,Income,Maintenance Contracts,10589,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000919,2026-04-13 00:00:00,Income,Maintenance Contracts,20803,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000920,2026-04-13 00:00:00,Income,Product Sales,7581,Credit Card,Client / Customer,Product Sales revenue received
+TX000921,2026-04-14 00:00:00,Income,Product Sales,6505,UPI,Client / Customer,Product Sales revenue received
+TX000922,2026-04-14 00:00:00,Income,Training & Workshops,4900,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000923,2026-04-15 00:00:00,Income,Maintenance Contracts,29826,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000924,2026-04-15 00:00:00,Income,Product Sales,2707,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000925,2026-04-16 00:00:00,Income,Training & Workshops,8680,Cash,Client / Customer,Training & Workshops revenue received
+TX000926,2026-04-16 00:00:00,Income,Maintenance Contracts,13471,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000927,2026-04-16 00:00:00,Expense,Marketing & Ads,4967,UPI,Approved Vendor,Marketing & Ads purchase
+TX000928,2026-04-17 00:00:00,Income,Training & Workshops,7456,Cash,Client / Customer,Training & Workshops revenue received
+TX000929,2026-04-17 00:00:00,Income,Product Sales,6808,Cash,Client / Customer,Product Sales revenue received
+TX000930,2026-04-17 00:00:00,Income,Product Sales,10628,Credit Card,Client / Customer,Product Sales revenue received
+TX000931,2026-04-18 00:00:00,Income,Training & Workshops,12287,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000932,2026-04-18 00:00:00,Income,Maintenance Contracts,13154,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000933,2026-04-19 00:00:00,Income,Product Sales,6242,Cash,Client / Customer,Product Sales revenue received
+TX000934,2026-04-19 00:00:00,Income,Product Sales,3221,UPI,Client / Customer,Product Sales revenue received
+TX000935,2026-04-19 00:00:00,Income,Consulting & Services,6506,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000936,2026-04-19 00:00:00,Income,Maintenance Contracts,20549,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX000937,2026-04-19 00:00:00,Expense,Raw Materials & Supplies,17058,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000938,2026-04-20 00:00:00,Income,Training & Workshops,6678,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000939,2026-04-20 00:00:00,Income,Consulting & Services,18639,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000940,2026-04-20 00:00:00,Income,Maintenance Contracts,10552,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000941,2026-04-20 00:00:00,Income,Maintenance Contracts,11912,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000942,2026-04-21 00:00:00,Income,Consulting & Services,12313,Cash,Client / Customer,Consulting & Services revenue received
+TX000943,2026-04-21 00:00:00,Income,Product Sales,9068,UPI,Client / Customer,Product Sales revenue received
+TX000944,2026-04-22 00:00:00,Income,Maintenance Contracts,18724,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000945,2026-04-22 00:00:00,Income,Training & Workshops,3130,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000946,2026-04-22 00:00:00,Income,Consulting & Services,14554,Cash,Client / Customer,Consulting & Services revenue received
+TX000947,2026-04-23 00:00:00,Income,Consulting & Services,20201,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000948,2026-04-23 00:00:00,Income,Training & Workshops,6201,Cash,Client / Customer,Training & Workshops revenue received
+TX000949,2026-04-23 00:00:00,Income,Consulting & Services,9933,UPI,Client / Customer,Consulting & Services revenue received
+TX000950,2026-04-23 00:00:00,Income,Training & Workshops,3391,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX000951,2026-04-24 00:00:00,Income,Product Sales,7988,UPI,Client / Customer,Product Sales revenue received
+TX000952,2026-04-24 00:00:00,Income,Training & Workshops,14914,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000953,2026-04-24 00:00:00,Income,Product Sales,5861,Cash,Client / Customer,Product Sales revenue received
+TX000954,2026-04-24 00:00:00,Income,Consulting & Services,18756,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000955,2026-04-25 00:00:00,Income,Maintenance Contracts,11048,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000956,2026-04-25 00:00:00,Income,Consulting & Services,22031,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000957,2026-04-26 00:00:00,Income,Training & Workshops,4391,Cash,Client / Customer,Training & Workshops revenue received
+TX000958,2026-04-26 00:00:00,Income,Product Sales,10780,Bank Transfer,Client / Customer,Product Sales revenue received
+TX000959,2026-04-26 00:00:00,Income,Training & Workshops,4226,Cash,Client / Customer,Training & Workshops revenue received
+TX000960,2026-04-27 00:00:00,Income,Consulting & Services,12758,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000961,2026-04-27 00:00:00,Income,Maintenance Contracts,18322,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000962,2026-04-27 00:00:00,Income,Maintenance Contracts,18422,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000963,2026-04-27 00:00:00,Expense,Raw Materials & Supplies,11321,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000964,2026-04-28 00:00:00,Income,Product Sales,5046,UPI,Client / Customer,Product Sales revenue received
+TX000965,2026-04-28 00:00:00,Income,Consulting & Services,19731,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000966,2026-04-28 00:00:00,Income,Maintenance Contracts,21320,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000967,2026-04-28 00:00:00,Income,Maintenance Contracts,14803,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX000968,2026-04-28 00:00:00,Expense,Marketing & Ads,4982,UPI,Approved Vendor,Marketing & Ads purchase
+TX000969,2026-04-29 00:00:00,Income,Maintenance Contracts,27769,UPI,Client / Customer,Maintenance Contracts revenue received
+TX000970,2026-04-29 00:00:00,Income,Consulting & Services,15741,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000971,2026-04-29 00:00:00,Expense,Raw Materials & Supplies,13828,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX000972,2026-04-30 00:00:00,Income,Product Sales,7396,Debit Card,Client / Customer,Product Sales revenue received
+TX000973,2026-04-30 00:00:00,Income,Consulting & Services,6018,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000974,2026-04-30 00:00:00,Income,Training & Workshops,12108,Cash,Client / Customer,Training & Workshops revenue received
+TX000975,2026-04-30 00:00:00,Income,Consulting & Services,8103,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000976,2026-04-30 00:00:00,Expense,Raw Materials & Supplies,9989,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX000977,2026-05-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX000978,2026-05-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX000979,2026-05-01 00:00:00,Income,Consulting & Services,9283,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000980,2026-05-01 00:00:00,Income,Training & Workshops,9098,UPI,Client / Customer,Training & Workshops revenue received
+TX000981,2026-05-02 00:00:00,Income,Product Sales,2857,UPI,Client / Customer,Product Sales revenue received
+TX000982,2026-05-02 00:00:00,Income,Consulting & Services,19530,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX000983,2026-05-02 00:00:00,Income,Product Sales,7932,UPI,Client / Customer,Product Sales revenue received
+TX000984,2026-05-02 00:00:00,Expense,Marketing & Ads,4414,UPI,Approved Vendor,Marketing & Ads purchase
+TX000985,2026-05-03 00:00:00,Income,Training & Workshops,14869,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000986,2026-05-03 00:00:00,Income,Training & Workshops,3483,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000987,2026-05-03 00:00:00,Income,Training & Workshops,5831,Debit Card,Client / Customer,Training & Workshops revenue received
+TX000988,2026-05-03 00:00:00,Income,Consulting & Services,11132,Debit Card,Client / Customer,Consulting & Services revenue received
+TX000989,2026-05-03 00:00:00,Expense,Raw Materials & Supplies,8567,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX000990,2026-05-04 00:00:00,Income,Consulting & Services,14670,Credit Card,Client / Customer,Consulting & Services revenue received
+TX000991,2026-05-04 00:00:00,Income,Training & Workshops,12022,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000992,2026-05-04 00:00:00,Income,Product Sales,3937,Debit Card,Client / Customer,Product Sales revenue received
+TX000993,2026-05-04 00:00:00,Income,Training & Workshops,5248,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000994,2026-05-04 00:00:00,Expense,Logistics & Courier,2220,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX000995,2026-05-05 00:00:00,Income,Product Sales,8766,Debit Card,Client / Customer,Product Sales revenue received
+TX000996,2026-05-05 00:00:00,Income,Training & Workshops,11921,Credit Card,Client / Customer,Training & Workshops revenue received
+TX000997,2026-05-05 00:00:00,Income,Maintenance Contracts,26535,Cash,Client / Customer,Maintenance Contracts revenue received
+TX000998,2026-05-05 00:00:00,Income,Maintenance Contracts,20726,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX000999,2026-05-05 00:00:00,Expense,Marketing & Ads,8891,UPI,Approved Vendor,Marketing & Ads purchase
+TX001000,2026-05-06 00:00:00,Income,Maintenance Contracts,9919,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001001,2026-05-06 00:00:00,Income,Maintenance Contracts,27136,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001002,2026-05-07 00:00:00,Income,Consulting & Services,12902,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001003,2026-05-07 00:00:00,Income,Product Sales,6094,Cash,Client / Customer,Product Sales revenue received
+TX001004,2026-05-08 00:00:00,Income,Maintenance Contracts,13692,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001005,2026-05-08 00:00:00,Income,Consulting & Services,24415,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001006,2026-05-08 00:00:00,Income,Maintenance Contracts,27384,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001007,2026-05-09 00:00:00,Income,Consulting & Services,23451,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001008,2026-05-09 00:00:00,Income,Training & Workshops,11882,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001009,2026-05-09 00:00:00,Income,Consulting & Services,21070,UPI,Client / Customer,Consulting & Services revenue received
+TX001010,2026-05-09 00:00:00,Expense,Raw Materials & Supplies,17857,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX001011,2026-05-10 00:00:00,Expense,Electricity & Utilities,6581,Bank Transfer,Power Corporation,Monthly electricity bill
+TX001012,2026-05-10 00:00:00,Expense,Internet & Software,4278,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX001013,2026-05-10 00:00:00,Income,Product Sales,7935,Cash,Client / Customer,Product Sales revenue received
+TX001014,2026-05-10 00:00:00,Income,Consulting & Services,9275,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001015,2026-05-10 00:00:00,Income,Consulting & Services,15603,UPI,Client / Customer,Consulting & Services revenue received
+TX001016,2026-05-10 00:00:00,Expense,Logistics & Courier,1780,UPI,Approved Vendor,Logistics & Courier purchase
+TX001017,2026-05-11 00:00:00,Income,Maintenance Contracts,10376,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001018,2026-05-11 00:00:00,Income,Training & Workshops,12601,UPI,Client / Customer,Training & Workshops revenue received
+TX001019,2026-05-11 00:00:00,Income,Maintenance Contracts,17888,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001020,2026-05-11 00:00:00,Income,Consulting & Services,10161,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001021,2026-05-12 00:00:00,Income,Maintenance Contracts,13708,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001022,2026-05-12 00:00:00,Income,Maintenance Contracts,15315,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001023,2026-05-12 00:00:00,Income,Consulting & Services,17398,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001024,2026-05-13 00:00:00,Income,Consulting & Services,10823,UPI,Client / Customer,Consulting & Services revenue received
+TX001025,2026-05-13 00:00:00,Income,Training & Workshops,12297,UPI,Client / Customer,Training & Workshops revenue received
+TX001026,2026-05-13 00:00:00,Income,Consulting & Services,24739,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001027,2026-05-14 00:00:00,Income,Consulting & Services,23531,UPI,Client / Customer,Consulting & Services revenue received
+TX001028,2026-05-14 00:00:00,Income,Training & Workshops,5304,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001029,2026-05-14 00:00:00,Income,Product Sales,6399,Debit Card,Client / Customer,Product Sales revenue received
+TX001030,2026-05-14 00:00:00,Income,Maintenance Contracts,13501,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001031,2026-05-15 00:00:00,Income,Maintenance Contracts,22635,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001032,2026-05-15 00:00:00,Income,Maintenance Contracts,14870,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001033,2026-05-15 00:00:00,Income,Product Sales,8242,Debit Card,Client / Customer,Product Sales revenue received
+TX001034,2026-05-15 00:00:00,Income,Product Sales,2520,UPI,Client / Customer,Product Sales revenue received
+TX001035,2026-05-15 00:00:00,Expense,Logistics & Courier,2918,UPI,Approved Vendor,Logistics & Courier purchase
+TX001036,2026-05-16 00:00:00,Income,Training & Workshops,9204,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001037,2026-05-16 00:00:00,Income,Training & Workshops,4661,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001038,2026-05-16 00:00:00,Income,Consulting & Services,10329,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001039,2026-05-16 00:00:00,Expense,Raw Materials & Supplies,12831,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX001040,2026-05-17 00:00:00,Income,Maintenance Contracts,11431,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001041,2026-05-17 00:00:00,Income,Maintenance Contracts,13574,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001042,2026-05-17 00:00:00,Income,Consulting & Services,7457,Cash,Client / Customer,Consulting & Services revenue received
+TX001043,2026-05-18 00:00:00,Income,Maintenance Contracts,27465,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001044,2026-05-18 00:00:00,Income,Training & Workshops,14542,UPI,Client / Customer,Training & Workshops revenue received
+TX001045,2026-05-19 00:00:00,Income,Consulting & Services,24900,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001046,2026-05-19 00:00:00,Income,Consulting & Services,6754,UPI,Client / Customer,Consulting & Services revenue received
+TX001047,2026-05-19 00:00:00,Income,Maintenance Contracts,14735,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001048,2026-05-19 00:00:00,Income,Training & Workshops,14422,Cash,Client / Customer,Training & Workshops revenue received
+TX001049,2026-05-20 00:00:00,Income,Maintenance Contracts,29646,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001050,2026-05-20 00:00:00,Income,Maintenance Contracts,15783,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001051,2026-05-20 00:00:00,Income,Product Sales,8937,Cash,Client / Customer,Product Sales revenue received
+TX001052,2026-05-20 00:00:00,Income,Training & Workshops,5516,UPI,Client / Customer,Training & Workshops revenue received
+TX001053,2026-05-20 00:00:00,Expense,Marketing & Ads,4717,Bank Transfer,Approved Vendor,Marketing & Ads purchase
+TX001054,2026-05-21 00:00:00,Income,Training & Workshops,6271,UPI,Client / Customer,Training & Workshops revenue received
+TX001055,2026-05-21 00:00:00,Income,Product Sales,5890,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001056,2026-05-21 00:00:00,Income,Maintenance Contracts,10684,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001057,2026-05-21 00:00:00,Income,Product Sales,7552,Credit Card,Client / Customer,Product Sales revenue received
+TX001058,2026-05-22 00:00:00,Income,Maintenance Contracts,10986,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001059,2026-05-22 00:00:00,Income,Training & Workshops,6029,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001060,2026-05-22 00:00:00,Income,Training & Workshops,9052,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001061,2026-05-22 00:00:00,Income,Training & Workshops,3731,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001062,2026-05-23 00:00:00,Income,Consulting & Services,13800,Cash,Client / Customer,Consulting & Services revenue received
+TX001063,2026-05-23 00:00:00,Income,Product Sales,4976,UPI,Client / Customer,Product Sales revenue received
+TX001064,2026-05-23 00:00:00,Income,Product Sales,8132,Cash,Client / Customer,Product Sales revenue received
+TX001065,2026-05-24 00:00:00,Income,Consulting & Services,23140,UPI,Client / Customer,Consulting & Services revenue received
+TX001066,2026-05-24 00:00:00,Income,Training & Workshops,11561,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001067,2026-05-24 00:00:00,Income,Training & Workshops,12383,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001068,2026-05-24 00:00:00,Income,Training & Workshops,7896,UPI,Client / Customer,Training & Workshops revenue received
+TX001069,2026-05-24 00:00:00,Expense,Logistics & Courier,1342,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001070,2026-05-25 00:00:00,Income,Consulting & Services,8941,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001071,2026-05-25 00:00:00,Income,Consulting & Services,10477,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001072,2026-05-25 00:00:00,Income,Consulting & Services,9134,UPI,Client / Customer,Consulting & Services revenue received
+TX001073,2026-05-25 00:00:00,Income,Training & Workshops,4283,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001074,2026-05-25 00:00:00,Expense,Logistics & Courier,1805,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001075,2026-05-26 00:00:00,Income,Maintenance Contracts,10195,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001076,2026-05-26 00:00:00,Income,Training & Workshops,12115,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001077,2026-05-26 00:00:00,Income,Maintenance Contracts,17050,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001078,2026-05-27 00:00:00,Income,Training & Workshops,4843,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001079,2026-05-27 00:00:00,Income,Consulting & Services,9856,Cash,Client / Customer,Consulting & Services revenue received
+TX001080,2026-05-28 00:00:00,Income,Product Sales,11719,UPI,Client / Customer,Product Sales revenue received
+TX001081,2026-05-28 00:00:00,Income,Maintenance Contracts,25551,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001082,2026-05-29 00:00:00,Income,Training & Workshops,13728,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001083,2026-05-29 00:00:00,Income,Training & Workshops,3613,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001084,2026-05-29 00:00:00,Income,Maintenance Contracts,21204,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001085,2026-05-30 00:00:00,Income,Training & Workshops,3635,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001086,2026-05-30 00:00:00,Income,Maintenance Contracts,15784,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001087,2026-05-30 00:00:00,Income,Training & Workshops,7400,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001088,2026-05-30 00:00:00,Income,Product Sales,8035,Debit Card,Client / Customer,Product Sales revenue received
+TX001089,2026-05-30 00:00:00,Expense,Marketing & Ads,4804,UPI,Approved Vendor,Marketing & Ads purchase
+TX001090,2026-05-31 00:00:00,Income,Maintenance Contracts,22519,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001091,2026-05-31 00:00:00,Income,Maintenance Contracts,21656,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001092,2026-06-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX001093,2026-06-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX001094,2026-06-01 00:00:00,Income,Training & Workshops,6463,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001095,2026-06-01 00:00:00,Income,Training & Workshops,11462,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001096,2026-06-02 00:00:00,Income,Consulting & Services,7150,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001097,2026-06-02 00:00:00,Income,Training & Workshops,5222,Cash,Client / Customer,Training & Workshops revenue received
+TX001098,2026-06-02 00:00:00,Income,Product Sales,5346,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001099,2026-06-02 00:00:00,Income,Consulting & Services,6888,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001100,2026-06-02 00:00:00,Expense,Raw Materials & Supplies,13904,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX001101,2026-06-03 00:00:00,Income,Maintenance Contracts,20070,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001102,2026-06-03 00:00:00,Income,Training & Workshops,13410,UPI,Client / Customer,Training & Workshops revenue received
+TX001103,2026-06-04 00:00:00,Income,Maintenance Contracts,24016,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001104,2026-06-04 00:00:00,Income,Training & Workshops,5909,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001105,2026-06-05 00:00:00,Income,Maintenance Contracts,13358,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001106,2026-06-05 00:00:00,Income,Product Sales,7170,UPI,Client / Customer,Product Sales revenue received
+TX001107,2026-06-05 00:00:00,Income,Training & Workshops,3813,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001108,2026-06-06 00:00:00,Income,Consulting & Services,12376,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001109,2026-06-06 00:00:00,Income,Maintenance Contracts,29351,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001110,2026-06-07 00:00:00,Income,Product Sales,10267,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001111,2026-06-07 00:00:00,Income,Consulting & Services,24698,UPI,Client / Customer,Consulting & Services revenue received
+TX001112,2026-06-07 00:00:00,Income,Consulting & Services,13270,Cash,Client / Customer,Consulting & Services revenue received
+TX001113,2026-06-07 00:00:00,Income,Maintenance Contracts,29061,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001114,2026-06-08 00:00:00,Income,Maintenance Contracts,23040,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001115,2026-06-08 00:00:00,Income,Consulting & Services,20292,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001116,2026-06-08 00:00:00,Income,Training & Workshops,12576,UPI,Client / Customer,Training & Workshops revenue received
+TX001117,2026-06-08 00:00:00,Expense,Logistics & Courier,2732,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001118,2026-06-09 00:00:00,Income,Maintenance Contracts,17780,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001119,2026-06-09 00:00:00,Income,Training & Workshops,4045,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001120,2026-06-09 00:00:00,Income,Maintenance Contracts,28991,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001121,2026-06-09 00:00:00,Income,Maintenance Contracts,16557,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001122,2026-06-09 00:00:00,Expense,Logistics & Courier,2184,UPI,Approved Vendor,Logistics & Courier purchase
+TX001123,2026-06-10 00:00:00,Expense,Electricity & Utilities,8957,Bank Transfer,Power Corporation,Monthly electricity bill
+TX001124,2026-06-10 00:00:00,Expense,Internet & Software,4027,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX001125,2026-06-10 00:00:00,Income,Maintenance Contracts,12585,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001126,2026-06-10 00:00:00,Income,Training & Workshops,7843,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001127,2026-06-10 00:00:00,Income,Training & Workshops,9628,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001128,2026-06-10 00:00:00,Income,Product Sales,11872,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001129,2026-06-10 00:00:00,Expense,Logistics & Courier,2110,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001130,2026-06-11 00:00:00,Income,Training & Workshops,14007,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001131,2026-06-11 00:00:00,Income,Maintenance Contracts,13570,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001132,2026-06-11 00:00:00,Income,Consulting & Services,14626,UPI,Client / Customer,Consulting & Services revenue received
+TX001133,2026-06-11 00:00:00,Income,Training & Workshops,5096,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001134,2026-06-12 00:00:00,Income,Consulting & Services,15998,UPI,Client / Customer,Consulting & Services revenue received
+TX001135,2026-06-12 00:00:00,Income,Consulting & Services,16641,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001136,2026-06-12 00:00:00,Income,Maintenance Contracts,21778,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001137,2026-06-12 00:00:00,Income,Maintenance Contracts,16538,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001138,2026-06-12 00:00:00,Expense,Raw Materials & Supplies,15709,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX001139,2026-06-13 00:00:00,Income,Product Sales,10236,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001140,2026-06-13 00:00:00,Income,Product Sales,8753,Cash,Client / Customer,Product Sales revenue received
+TX001141,2026-06-13 00:00:00,Income,Maintenance Contracts,21536,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001142,2026-06-13 00:00:00,Income,Consulting & Services,9501,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001143,2026-06-13 00:00:00,Expense,Logistics & Courier,3074,UPI,Approved Vendor,Logistics & Courier purchase
+TX001144,2026-06-14 00:00:00,Income,Consulting & Services,7648,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001145,2026-06-14 00:00:00,Income,Maintenance Contracts,28677,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001146,2026-06-14 00:00:00,Income,Maintenance Contracts,28791,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001147,2026-06-14 00:00:00,Expense,Marketing & Ads,5715,UPI,Approved Vendor,Marketing & Ads purchase
+TX001148,2026-06-15 00:00:00,Income,Consulting & Services,21042,UPI,Client / Customer,Consulting & Services revenue received
+TX001149,2026-06-15 00:00:00,Income,Consulting & Services,19211,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001150,2026-06-15 00:00:00,Income,Training & Workshops,10029,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001151,2026-06-15 00:00:00,Income,Training & Workshops,3076,UPI,Client / Customer,Training & Workshops revenue received
+TX001152,2026-06-16 00:00:00,Income,Maintenance Contracts,8461,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001153,2026-06-16 00:00:00,Income,Consulting & Services,5587,UPI,Client / Customer,Consulting & Services revenue received
+TX001154,2026-06-16 00:00:00,Income,Consulting & Services,12414,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001155,2026-06-16 00:00:00,Income,Maintenance Contracts,12224,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001156,2026-06-16 00:00:00,Expense,Logistics & Courier,2453,UPI,Approved Vendor,Logistics & Courier purchase
+TX001157,2026-06-17 00:00:00,Income,Product Sales,7385,Debit Card,Client / Customer,Product Sales revenue received
+TX001158,2026-06-17 00:00:00,Income,Training & Workshops,14924,Cash,Client / Customer,Training & Workshops revenue received
+TX001159,2026-06-18 00:00:00,Income,Training & Workshops,14252,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001160,2026-06-18 00:00:00,Income,Maintenance Contracts,24062,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001161,2026-06-18 00:00:00,Income,Consulting & Services,10402,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001162,2026-06-18 00:00:00,Expense,Raw Materials & Supplies,19913,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX001163,2026-06-19 00:00:00,Income,Product Sales,10767,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001164,2026-06-19 00:00:00,Income,Product Sales,8506,UPI,Client / Customer,Product Sales revenue received
+TX001165,2026-06-19 00:00:00,Expense,Logistics & Courier,2247,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001166,2026-06-20 00:00:00,Income,Product Sales,3285,UPI,Client / Customer,Product Sales revenue received
+TX001167,2026-06-20 00:00:00,Income,Product Sales,3290,UPI,Client / Customer,Product Sales revenue received
+TX001168,2026-06-20 00:00:00,Income,Training & Workshops,10279,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001169,2026-06-20 00:00:00,Income,Product Sales,11466,Debit Card,Client / Customer,Product Sales revenue received
+TX001170,2026-06-21 00:00:00,Income,Consulting & Services,5304,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001171,2026-06-21 00:00:00,Income,Training & Workshops,13840,UPI,Client / Customer,Training & Workshops revenue received
+TX001172,2026-06-22 00:00:00,Income,Consulting & Services,18724,UPI,Client / Customer,Consulting & Services revenue received
+TX001173,2026-06-22 00:00:00,Income,Product Sales,7131,UPI,Client / Customer,Product Sales revenue received
+TX001174,2026-06-22 00:00:00,Income,Product Sales,10654,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001175,2026-06-23 00:00:00,Income,Consulting & Services,16728,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001176,2026-06-23 00:00:00,Income,Maintenance Contracts,13255,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001177,2026-06-23 00:00:00,Income,Training & Workshops,6402,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001178,2026-06-23 00:00:00,Expense,Raw Materials & Supplies,8208,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX001179,2026-06-24 00:00:00,Income,Product Sales,11906,Credit Card,Client / Customer,Product Sales revenue received
+TX001180,2026-06-24 00:00:00,Income,Consulting & Services,7951,Cash,Client / Customer,Consulting & Services revenue received
+TX001181,2026-06-24 00:00:00,Expense,Logistics & Courier,1614,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX001182,2026-06-25 00:00:00,Income,Consulting & Services,19966,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001183,2026-06-25 00:00:00,Income,Maintenance Contracts,23213,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001184,2026-06-25 00:00:00,Income,Product Sales,5362,UPI,Client / Customer,Product Sales revenue received
+TX001185,2026-06-25 00:00:00,Income,Maintenance Contracts,19803,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001186,2026-06-26 00:00:00,Income,Product Sales,3251,UPI,Client / Customer,Product Sales revenue received
+TX001187,2026-06-26 00:00:00,Income,Consulting & Services,10587,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001188,2026-06-26 00:00:00,Expense,Marketing & Ads,6197,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX001189,2026-06-27 00:00:00,Income,Maintenance Contracts,19230,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001190,2026-06-27 00:00:00,Income,Product Sales,9066,Credit Card,Client / Customer,Product Sales revenue received
+TX001191,2026-06-28 00:00:00,Income,Training & Workshops,14303,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001192,2026-06-28 00:00:00,Income,Training & Workshops,13630,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001193,2026-06-28 00:00:00,Income,Product Sales,4671,UPI,Client / Customer,Product Sales revenue received
+TX001194,2026-06-29 00:00:00,Income,Product Sales,9316,Cash,Client / Customer,Product Sales revenue received
+TX001195,2026-06-29 00:00:00,Income,Training & Workshops,12321,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001196,2026-06-29 00:00:00,Expense,Marketing & Ads,6937,Debit Card,Approved Vendor,Marketing & Ads purchase
+TX001197,2026-06-30 00:00:00,Income,Consulting & Services,20829,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001198,2026-06-30 00:00:00,Income,Product Sales,9238,Credit Card,Client / Customer,Product Sales revenue received
+TX001199,2026-06-30 00:00:00,Expense,Marketing & Ads,6574,UPI,Approved Vendor,Marketing & Ads purchase
+TX001200,2026-07-01 00:00:00,Expense,Staff Salaries,85000,Bank Transfer,Payroll Account,Monthly employee salaries
+TX001201,2026-07-01 00:00:00,Expense,Office Rent,35000,Bank Transfer,Commercial Realty Ltd,Monthly office space rent
+TX001202,2026-07-01 00:00:00,Income,Consulting & Services,16085,Cash,Client / Customer,Consulting & Services revenue received
+TX001203,2026-07-01 00:00:00,Income,Product Sales,9591,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001204,2026-07-01 00:00:00,Income,Training & Workshops,8664,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001205,2026-07-01 00:00:00,Income,Consulting & Services,23295,Cash,Client / Customer,Consulting & Services revenue received
+TX001206,2026-07-01 00:00:00,Expense,Logistics & Courier,1842,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001207,2026-07-02 00:00:00,Income,Training & Workshops,5709,UPI,Client / Customer,Training & Workshops revenue received
+TX001208,2026-07-02 00:00:00,Income,Training & Workshops,8253,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001209,2026-07-02 00:00:00,Income,Maintenance Contracts,17114,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001210,2026-07-03 00:00:00,Income,Training & Workshops,9607,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001211,2026-07-03 00:00:00,Income,Product Sales,10021,Credit Card,Client / Customer,Product Sales revenue received
+TX001212,2026-07-03 00:00:00,Income,Training & Workshops,4442,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001213,2026-07-03 00:00:00,Income,Training & Workshops,8178,UPI,Client / Customer,Training & Workshops revenue received
+TX001214,2026-07-04 00:00:00,Income,Product Sales,4181,Credit Card,Client / Customer,Product Sales revenue received
+TX001215,2026-07-04 00:00:00,Income,Training & Workshops,3587,Cash,Client / Customer,Training & Workshops revenue received
+TX001216,2026-07-04 00:00:00,Income,Product Sales,3989,Cash,Client / Customer,Product Sales revenue received
+TX001217,2026-07-04 00:00:00,Income,Maintenance Contracts,24657,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001218,2026-07-04 00:00:00,Expense,Logistics & Courier,3068,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX001219,2026-07-05 00:00:00,Income,Product Sales,6152,Credit Card,Client / Customer,Product Sales revenue received
+TX001220,2026-07-05 00:00:00,Income,Maintenance Contracts,26355,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001221,2026-07-05 00:00:00,Income,Training & Workshops,14741,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001222,2026-07-06 00:00:00,Income,Product Sales,6133,UPI,Client / Customer,Product Sales revenue received
+TX001223,2026-07-06 00:00:00,Income,Maintenance Contracts,19637,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001224,2026-07-07 00:00:00,Income,Product Sales,3250,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001225,2026-07-07 00:00:00,Income,Training & Workshops,5301,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001226,2026-07-07 00:00:00,Income,Product Sales,6666,Cash,Client / Customer,Product Sales revenue received
+TX001227,2026-07-07 00:00:00,Expense,Raw Materials & Supplies,21962,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX001228,2026-07-08 00:00:00,Income,Training & Workshops,6122,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001229,2026-07-08 00:00:00,Income,Product Sales,9290,UPI,Client / Customer,Product Sales revenue received
+TX001230,2026-07-09 00:00:00,Income,Product Sales,9881,Credit Card,Client / Customer,Product Sales revenue received
+TX001231,2026-07-09 00:00:00,Income,Consulting & Services,21345,UPI,Client / Customer,Consulting & Services revenue received
+TX001232,2026-07-09 00:00:00,Income,Product Sales,11564,Credit Card,Client / Customer,Product Sales revenue received
+TX001233,2026-07-09 00:00:00,Income,Training & Workshops,11328,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001234,2026-07-10 00:00:00,Expense,Electricity & Utilities,7211,Bank Transfer,Power Corporation,Monthly electricity bill
+TX001235,2026-07-10 00:00:00,Expense,Internet & Software,4696,Bank Transfer,Cloud & ISP Provider,Software subscription & business broadband
+TX001236,2026-07-10 00:00:00,Income,Product Sales,8847,Cash,Client / Customer,Product Sales revenue received
+TX001237,2026-07-10 00:00:00,Income,Maintenance Contracts,24518,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001238,2026-07-11 00:00:00,Income,Consulting & Services,13965,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001239,2026-07-11 00:00:00,Income,Maintenance Contracts,17639,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001240,2026-07-11 00:00:00,Income,Consulting & Services,9527,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001241,2026-07-11 00:00:00,Income,Maintenance Contracts,25950,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001242,2026-07-12 00:00:00,Income,Consulting & Services,11582,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001243,2026-07-12 00:00:00,Income,Maintenance Contracts,19314,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001244,2026-07-12 00:00:00,Income,Consulting & Services,21511,Cash,Client / Customer,Consulting & Services revenue received
+TX001245,2026-07-12 00:00:00,Income,Maintenance Contracts,11781,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001246,2026-07-13 00:00:00,Income,Training & Workshops,14046,Cash,Client / Customer,Training & Workshops revenue received
+TX001247,2026-07-13 00:00:00,Income,Maintenance Contracts,21840,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001248,2026-07-13 00:00:00,Income,Product Sales,2914,Credit Card,Client / Customer,Product Sales revenue received
+TX001249,2026-07-13 00:00:00,Income,Consulting & Services,6738,UPI,Client / Customer,Consulting & Services revenue received
+TX001250,2026-07-13 00:00:00,Expense,Raw Materials & Supplies,12695,Debit Card,Approved Vendor,Raw Materials & Supplies purchase
+TX001251,2026-07-14 00:00:00,Income,Consulting & Services,7032,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001252,2026-07-14 00:00:00,Income,Consulting & Services,22733,UPI,Client / Customer,Consulting & Services revenue received
+TX001253,2026-07-14 00:00:00,Income,Maintenance Contracts,22830,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001254,2026-07-15 00:00:00,Income,Consulting & Services,23391,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001255,2026-07-15 00:00:00,Income,Consulting & Services,21741,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001256,2026-07-15 00:00:00,Income,Product Sales,8751,Credit Card,Client / Customer,Product Sales revenue received
+TX001257,2026-07-15 00:00:00,Income,Training & Workshops,14225,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001258,2026-07-16 00:00:00,Income,Product Sales,6617,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001259,2026-07-16 00:00:00,Income,Training & Workshops,6695,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001260,2026-07-17 00:00:00,Income,Consulting & Services,11340,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001261,2026-07-17 00:00:00,Income,Training & Workshops,5906,UPI,Client / Customer,Training & Workshops revenue received
+TX001262,2026-07-17 00:00:00,Income,Consulting & Services,10694,Cash,Client / Customer,Consulting & Services revenue received
+TX001263,2026-07-17 00:00:00,Income,Product Sales,8680,UPI,Client / Customer,Product Sales revenue received
+TX001264,2026-07-18 00:00:00,Income,Maintenance Contracts,12262,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001265,2026-07-18 00:00:00,Income,Maintenance Contracts,8184,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001266,2026-07-18 00:00:00,Income,Training & Workshops,14627,Bank Transfer,Client / Customer,Training & Workshops revenue received
+TX001267,2026-07-18 00:00:00,Income,Product Sales,5018,Debit Card,Client / Customer,Product Sales revenue received
+TX001268,2026-07-19 00:00:00,Income,Maintenance Contracts,24074,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001269,2026-07-19 00:00:00,Income,Maintenance Contracts,10388,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001270,2026-07-19 00:00:00,Income,Consulting & Services,11025,Cash,Client / Customer,Consulting & Services revenue received
+TX001271,2026-07-19 00:00:00,Income,Product Sales,10776,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001272,2026-07-20 00:00:00,Income,Training & Workshops,4506,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001273,2026-07-20 00:00:00,Income,Consulting & Services,11991,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001274,2026-07-20 00:00:00,Income,Maintenance Contracts,19822,Debit Card,Client / Customer,Maintenance Contracts revenue received
+TX001275,2026-07-20 00:00:00,Income,Consulting & Services,22383,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001276,2026-07-21 00:00:00,Income,Product Sales,4379,Debit Card,Client / Customer,Product Sales revenue received
+TX001277,2026-07-21 00:00:00,Income,Training & Workshops,6937,Cash,Client / Customer,Training & Workshops revenue received
+TX001278,2026-07-21 00:00:00,Income,Consulting & Services,6306,Debit Card,Client / Customer,Consulting & Services revenue received
+TX001279,2026-07-21 00:00:00,Income,Training & Workshops,4857,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001280,2026-07-21 00:00:00,Expense,Logistics & Courier,2358,UPI,Approved Vendor,Logistics & Courier purchase
+TX001281,2026-07-22 00:00:00,Income,Maintenance Contracts,24852,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001282,2026-07-22 00:00:00,Income,Training & Workshops,10975,UPI,Client / Customer,Training & Workshops revenue received
+TX001283,2026-07-22 00:00:00,Income,Maintenance Contracts,29349,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001284,2026-07-22 00:00:00,Income,Maintenance Contracts,24839,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001285,2026-07-23 00:00:00,Income,Product Sales,3572,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001286,2026-07-23 00:00:00,Income,Consulting & Services,18900,UPI,Client / Customer,Consulting & Services revenue received
+TX001287,2026-07-23 00:00:00,Expense,Logistics & Courier,2982,Debit Card,Approved Vendor,Logistics & Courier purchase
+TX001288,2026-07-24 00:00:00,Income,Consulting & Services,5778,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001289,2026-07-24 00:00:00,Income,Maintenance Contracts,9241,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001290,2026-07-24 00:00:00,Expense,Raw Materials & Supplies,21012,Bank Transfer,Approved Vendor,Raw Materials & Supplies purchase
+TX001291,2026-07-25 00:00:00,Income,Product Sales,11920,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001292,2026-07-25 00:00:00,Income,Maintenance Contracts,21357,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001293,2026-07-25 00:00:00,Income,Training & Workshops,13325,Credit Card,Client / Customer,Training & Workshops revenue received
+TX001294,2026-07-25 00:00:00,Income,Training & Workshops,8183,UPI,Client / Customer,Training & Workshops revenue received
+TX001295,2026-07-25 00:00:00,Expense,Raw Materials & Supplies,16762,UPI,Approved Vendor,Raw Materials & Supplies purchase
+TX001296,2026-07-26 00:00:00,Income,Product Sales,3245,UPI,Client / Customer,Product Sales revenue received
+TX001297,2026-07-26 00:00:00,Income,Maintenance Contracts,24476,UPI,Client / Customer,Maintenance Contracts revenue received
+TX001298,2026-07-26 00:00:00,Income,Maintenance Contracts,17874,Cash,Client / Customer,Maintenance Contracts revenue received
+TX001299,2026-07-26 00:00:00,Income,Product Sales,7112,Credit Card,Client / Customer,Product Sales revenue received
+TX001300,2026-07-26 00:00:00,Expense,Logistics & Courier,1326,Bank Transfer,Approved Vendor,Logistics & Courier purchase
+TX001301,2026-07-27 00:00:00,Income,Consulting & Services,9468,Credit Card,Client / Customer,Consulting & Services revenue received
+TX001302,2026-07-27 00:00:00,Income,Maintenance Contracts,28776,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001303,2026-07-27 00:00:00,Expense,Logistics & Courier,2728,UPI,Approved Vendor,Logistics & Courier purchase
+TX001304,2026-07-28 00:00:00,Income,Consulting & Services,9038,UPI,Client / Customer,Consulting & Services revenue received
+TX001305,2026-07-28 00:00:00,Income,Product Sales,11883,Cash,Client / Customer,Product Sales revenue received
+TX001306,2026-07-28 00:00:00,Income,Training & Workshops,11800,Cash,Client / Customer,Training & Workshops revenue received
+TX001307,2026-07-28 00:00:00,Income,Product Sales,7492,Bank Transfer,Client / Customer,Product Sales revenue received
+TX001308,2026-07-29 00:00:00,Income,Maintenance Contracts,14938,Credit Card,Client / Customer,Maintenance Contracts revenue received
+TX001309,2026-07-29 00:00:00,Income,Consulting & Services,10274,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001310,2026-07-29 00:00:00,Income,Consulting & Services,13281,Bank Transfer,Client / Customer,Consulting & Services revenue received
+TX001311,2026-07-29 00:00:00,Income,Product Sales,5471,Cash,Client / Customer,Product Sales revenue received
+TX001312,2026-07-30 00:00:00,Income,Training & Workshops,13562,Cash,Client / Customer,Training & Workshops revenue received
+TX001313,2026-07-30 00:00:00,Income,Product Sales,7262,UPI,Client / Customer,Product Sales revenue received
+TX001314,2026-07-30 00:00:00,Income,Maintenance Contracts,11217,Bank Transfer,Client / Customer,Maintenance Contracts revenue received
+TX001315,2026-07-30 00:00:00,Income,Training & Workshops,8420,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001316,2026-07-30 00:00:00,Expense,Logistics & Courier,2160,UPI,Approved Vendor,Logistics & Courier purchase
+TX001317,2026-07-31 00:00:00,Income,Product Sales,5670,Debit Card,Client / Customer,Product Sales revenue received
+TX001318,2026-07-31 00:00:00,Income,Training & Workshops,10383,Debit Card,Client / Customer,Training & Workshops revenue received
+TX001319,2026-07-31 00:00:00,Income,Maintenance Contracts,27142,Bank Transfer,Client / Customer,Maintenance Contracts revenue received

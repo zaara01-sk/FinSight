@@ -514,20 +514,27 @@ def build_advisory_model(
     )
 
     priority_actions: list[dict[str, str]] = []
+    seen_pa_actions: set[str] = set()
     horizon_by_priority = {
         "CRITICAL": "Immediate",
         "HIGH": "Next 30 days",
         "MEDIUM": "Next 30–60 days",
         "LOW": "Ongoing",
     }
-    for item in ranked_recommendations[:5]:
+    for item in ranked_recommendations:
+        action_name = str(item.get("title") or item.get("recommended_action") or "Review financial pattern").strip()
+        if action_name.lower() in seen_pa_actions:
+            continue
+        seen_pa_actions.add(action_name.lower())
         priority = str(item.get("priority") or "MEDIUM").upper()
         priority_actions.append({
             "priority": priority,
-            "action": str(item.get("title") or item.get("recommended_action") or "Review financial pattern"),
+            "action": action_name,
             "rationale": str(item.get("reason") or item.get("explanation") or ""),
             "time_horizon": horizon_by_priority.get(priority, "Ongoing"),
         })
+        if len(priority_actions) >= 5:
+            break
 
     if len(priority_actions) < 3:
         for item in internal_actions:
